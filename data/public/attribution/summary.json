@@ -1,0 +1,242 @@
+{
+  "real": {
+    "dataset_id": "sales_2026",
+    "provenance": "real",
+    "sales_policy": "legacy_sales_proxy",
+    "model": "last_touch",
+    "window_days": 7,
+    "half_life_days": null,
+    "sales_rub": 5904671.67,
+    "attributed_rub": 0.0,
+    "unknown_source_rub": 5904671.67,
+    "coverage_pct": 0.0,
+    "paid_orders": 628,
+    "buyers": 606,
+    "successful_records": 628,
+    "romi_pct": null,
+    "cost_complete": false
+  },
+  "demo": {
+    "dataset_id": "demo_2026",
+    "provenance": "synthetic",
+    "sales_policy": "recorded_payments",
+    "model": "last_touch",
+    "window_days": 7,
+    "half_life_days": null,
+    "sales_rub": 64790.0,
+    "attributed_rub": 48890.0,
+    "unknown_source_rub": 15900.0,
+    "coverage_pct": 75.45917579873438,
+    "paid_orders": 7,
+    "buyers": 6,
+    "successful_records": 8,
+    "romi_pct": null,
+    "cost_complete": false
+  },
+  "source_import": {
+    "dataset": "sales_2026",
+    "created_records": 1256,
+    "unchanged_records": 0,
+    "source_rows": 795,
+    "inferred_orders": 628,
+    "source_sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6"
+  },
+  "model_count": 5,
+  "windows_days": [
+    1,
+    3,
+    7,
+    14,
+    21
+  ],
+  "comparison_runs": 50,
+  "demo_stability": [
+    {
+      "model": "last_touch",
+      "reference": "last_touch",
+      "window_days": 7,
+      "reallocated_rub": 0.0,
+      "reallocated_share_of_sales_pct": 0.0,
+      "changed_payment_records": 0
+    },
+    {
+      "model": "first_touch",
+      "reference": "last_touch",
+      "window_days": 7,
+      "reallocated_rub": 19990.0,
+      "reallocated_share_of_sales_pct": 30.85352677882389,
+      "changed_payment_records": 3
+    },
+    {
+      "model": "linear",
+      "reference": "last_touch",
+      "window_days": 7,
+      "reallocated_rub": 10828.34,
+      "reallocated_share_of_sales_pct": 16.7129803982096,
+      "changed_payment_records": 3
+    },
+    {
+      "model": "time_decay",
+      "reference": "last_touch",
+      "window_days": 7,
+      "reallocated_rub": 8438.05,
+      "reallocated_share_of_sales_pct": 13.023691927766631,
+      "changed_payment_records": 3
+    },
+    {
+      "model": "position_based",
+      "reference": "last_touch",
+      "window_days": 7,
+      "reallocated_rub": 10495.0,
+      "reallocated_share_of_sales_pct": 16.198487420898285,
+      "changed_payment_records": 3
+    }
+  ],
+  "demo_window_comparison": [
+    {
+      "dataset_id": "demo_2026",
+      "provenance": "synthetic",
+      "sales_policy": "recorded_payments",
+      "model": "last_touch",
+      "window_days": 1,
+      "half_life_days": null,
+      "sales_rub": 64790.0,
+      "attributed_rub": 15000.0,
+      "unknown_source_rub": 49790.0,
+      "coverage_pct": 23.151720944590213,
+      "paid_orders": 7,
+      "buyers": 6,
+      "successful_records": 8,
+      "romi_pct": null,
+      "cost_complete": false
+    },
+    {
+      "dataset_id": "demo_2026",
+      "provenance": "synthetic",
+      "sales_policy": "recorded_payments",
+      "model": "last_touch",
+      "window_days": 3,
+      "half_life_days": null,
+      "sales_rub": 64790.0,
+      "attributed_rub": 48890.0,
+      "unknown_source_rub": 15900.0,
+      "coverage_pct": 75.45917579873438,
+      "paid_orders": 7,
+      "buyers": 6,
+      "successful_records": 8,
+      "romi_pct": null,
+      "cost_complete": false
+    },
+    {
+      "dataset_id": "demo_2026",
+      "provenance": "synthetic",
+      "sales_policy": "recorded_payments",
+      "model": "last_touch",
+      "window_days": 7,
+      "half_life_days": null,
+      "sales_rub": 64790.0,
+      "attributed_rub": 48890.0,
+      "unknown_source_rub": 15900.0,
+      "coverage_pct": 75.45917579873438,
+      "paid_orders": 7,
+      "buyers": 6,
+      "successful_records": 8,
+      "romi_pct": null,
+      "cost_complete": false
+    },
+    {
+      "dataset_id": "demo_2026",
+      "provenance": "synthetic",
+      "sales_policy": "recorded_payments",
+      "model": "last_touch",
+      "window_days": 14,
+      "half_life_days": null,
+      "sales_rub": 64790.0,
+      "attributed_rub": 57840.0,
+      "unknown_source_rub": 6950.0,
+      "coverage_pct": 89.27303596233986,
+      "paid_orders": 7,
+      "buyers": 6,
+      "successful_records": 8,
+      "romi_pct": null,
+      "cost_complete": false
+    },
+    {
+      "dataset_id": "demo_2026",
+      "provenance": "synthetic",
+      "sales_policy": "recorded_payments",
+      "model": "last_touch",
+      "window_days": 21,
+      "half_life_days": null,
+      "sales_rub": 64790.0,
+      "attributed_rub": 57840.0,
+      "unknown_source_rub": 6950.0,
+      "coverage_pct": 89.27303596233986,
+      "paid_orders": 7,
+      "buyers": 6,
+      "successful_records": 8,
+      "romi_pct": null,
+      "cost_complete": false
+    }
+  ],
+  "real_all_models_and_windows_have_zero_coverage": true,
+  "history_registry": {
+    "placements": 37,
+    "paid_course_promotions": 23,
+    "distinct_channels": 1,
+    "costs_known": 0,
+    "observed_touches": 0,
+    "observed_payments": 0,
+    "reimport_created_records": 0,
+    "clock": "UTC",
+    "legacy_sales_clock": "local_unspecified"
+  },
+  "real_unknown_reasons": {
+    "no_observed_touch_before_payment": 628
+  },
+  "demo_unknown_reasons": {
+    "has_observed_touch_in_window": {
+      "records": 6,
+      "sales_rub": 48890.0
+    },
+    "no_observed_touch_before_payment": {
+      "records": 1,
+      "sales_rub": 6950.0
+    },
+    "only_older_observed_touches": {
+      "records": 1,
+      "sales_rub": 8950.0
+    }
+  },
+  "demo_missing_clicks": {
+    "removed_event_ids": [
+      "t1b",
+      "t7b"
+    ],
+    "original_coverage_pct": 75.45917579873438,
+    "changed_coverage_pct": 75.45917579873438,
+    "reallocated_rub": 14990.0,
+    "reallocated_share_of_sales_pct": 23.136286463960488,
+    "changed_payment_records": 2,
+    "placement_revenue_rub": {
+      "p_a": 28940.0,
+      "p_b": 0.0,
+      "p_owned": 5000.0,
+      "p_unknown": 14950.0,
+      "p_unused": 0.0
+    }
+  },
+  "working_policy": {
+    "model": "last_touch",
+    "window_days": 7,
+    "basis": "operational_starting_rule; not empirically optimal",
+    "alternatives": [
+      "first_touch",
+      "linear",
+      "time_decay_half_life_3_days",
+      "position_based_40_20_40"
+    ],
+    "no_real_channel_ranking": true,
+    "attribution_is_not_incrementality": true
+  }
+}

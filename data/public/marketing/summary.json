@@ -1,0 +1,121 @@
+{
+  "source_sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6",
+  "observation_count": 75,
+  "export_source_message_count": 1220,
+  "export_period_messages": 73,
+  "export_period_text_messages": 55,
+  "export_period_media_only_messages": 18,
+  "export_sales_period_messages": 62,
+  "complete_publication_timestamps": 73,
+  "known_main_channel_posts_missing_from_export": [
+    1835
+  ],
+  "direct_course_promotion_messages": 23,
+  "third_party_promotion_messages": 5,
+  "all_orders": 628,
+  "all_sales_rub": 5904671.67,
+  "original_sale_window": {
+    "start": "2026-08-08",
+    "end": "2026-08-09",
+    "orders": 103,
+    "buyers": 103,
+    "sales_rub": 799106.67,
+    "orders_with_pro_or_ai": 7,
+    "pro_or_ai_line_sales_rub": 50415.0,
+    "strict_orders": 44,
+    "strict_sales_rub": 320560.0,
+    "price_only_orders": 6,
+    "price_only_sales_rub": 52940.0,
+    "other_orders": 53,
+    "other_sales_rub": 425606.67,
+    "strict_single_orders": 34,
+    "strict_bundle_orders": 10
+  },
+  "extended_sale_window": {
+    "start": "2026-08-08",
+    "end": "2026-08-10",
+    "orders": 132,
+    "buyers": 131,
+    "sales_rub": 1004696.67,
+    "orders_with_pro_or_ai": 10,
+    "pro_or_ai_line_sales_rub": 64815.0,
+    "strict_orders": 52,
+    "strict_sales_rub": 372480.0,
+    "price_only_orders": 7,
+    "price_only_sales_rub": 59430.0,
+    "other_orders": 73,
+    "other_sales_rub": 572786.67,
+    "strict_single_orders": 42,
+    "strict_bundle_orders": 10
+  },
+  "extension_day": {
+    "start": "2026-08-10",
+    "end": "2026-08-10",
+    "orders": 29,
+    "buyers": 29,
+    "sales_rub": 205590.0,
+    "orders_with_pro_or_ai": 3,
+    "pro_or_ai_line_sales_rub": 14400.0,
+    "strict_orders": 8,
+    "strict_sales_rub": 51920.0,
+    "price_only_orders": 1,
+    "price_only_sales_rub": 6490.0,
+    "other_orders": 20,
+    "other_sales_rub": 147180.0,
+    "strict_single_orders": 8,
+    "strict_bundle_orders": 0
+  },
+  "periods": [
+    {
+      "start": "2026-08-08",
+      "end": "2026-08-10",
+      "orders": 132,
+      "buyers": 131,
+      "sales_rub": 1004696.67,
+      "orders_with_pro_or_ai": 10,
+      "pro_or_ai_line_sales_rub": 64815.0,
+      "evidence_status": "sale_extended_through_aug10",
+      "source_url": "https://t.me/postypashki_old/1838"
+    },
+    {
+      "start": "2026-08-22",
+      "end": "2026-08-23",
+      "orders": 65,
+      "buyers": 65,
+      "sales_rub": 645645.0,
+      "orders_with_pro_or_ai": 51,
+      "pro_or_ai_line_sales_rub": 480125.0,
+      "evidence_status": "dated_pro_announcement_same_calendar_period",
+      "source_url": "https://t.me/postypashki_old/1859"
+    },
+    {
+      "start": "2026-09-05",
+      "end": "2026-09-06",
+      "orders": 94,
+      "buyers": 93,
+      "sales_rub": 880759.0,
+      "orders_with_pro_or_ai": 77,
+      "pro_or_ai_line_sales_rub": 672159.0,
+      "evidence_status": "tbank_deadline_and_course_promotion_context",
+      "source_url": "https://t.me/postypashki_old/1880"
+    }
+  ],
+  "conditional_intraday": {
+    "assumption": "ONLY_IF_sales_timestamps_are_also_UTC+03",
+    "strict_aug10_orders_before_extension_post": 6,
+    "strict_aug10_sales_before_extension_post_rub": 38940.0,
+    "aug22_orders_before_launch_post": 10,
+    "aug22_total_orders": 26
+  },
+  "price_6490_orders_outside_extended_window": 3,
+  "price_9990_orders_outside_extended_window": 0,
+  "limitations": [
+    "known_posts_missing_from_export",
+    "no_media_contents",
+    "no_buyer_touches",
+    "no_marketing_costs",
+    "sales_timezone_unknown",
+    "no_historical_post_revision_log",
+    "not_causal"
+  ]
+}

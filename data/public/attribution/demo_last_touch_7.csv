@@ -1,0 +1,6 @@
+﻿dataset,provenance,as_of,model,window_days,half_life_days,placement_id,channel,campaign_id,creative_id,kind,cost_rub,attributed_rub,buyers,orders,payments,romi_pct,romi_status
+demo_2026,synthetic,2026-09-15T00:00:00.000000+00:00,last_touch,7,,p_a,Учебный канал А,demo_launch,creative_p_a,external,2000,13950,2,2,2,597.5,calculated
+demo_2026,synthetic,2026-09-15T00:00:00.000000+00:00,last_touch,7,,p_b,Учебный канал Б,demo_launch,creative_p_b,external,3000,14990,2,2,2,399.6666666666667,calculated
+demo_2026,synthetic,2026-09-15T00:00:00.000000+00:00,last_touch,7,,p_owned,Собственный учебный канал,demo_launch,creative_p_owned,owned,0,5000,1,1,1,,zero_cost
+demo_2026,synthetic,2026-09-15T00:00:00.000000+00:00,last_touch,7,,p_unknown,Канал с неизвестной ценой размещения,demo_launch,creative_p_unknown,external,,14950,1,1,1,,unknown_cost
+demo_2026,synthetic,2026-09-15T00:00:00.000000+00:00,last_touch,7,,p_unused,Размещение без продаж,demo_launch,creative_p_unused,external,1000,0,0,0,0,-100.0,calculated

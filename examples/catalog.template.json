@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic_id": "topic_1",
+      "title": "ПРИМЕР: замените на вашу тему"
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": "main",
+      "title": "ПРИМЕР: ваш основной канал",
+      "kind": "own_main",
+      "created_at": "2026-09-12T00:00:00Z",
+      "recorded_at": "2026-09-12T00:00:00Z"
+    },
+    {
+      "channel_id": "source_1",
+      "title": "ПРИМЕР: источник рекламы",
+      "kind": "external",
+      "created_at": "2026-09-12T00:00:00Z",
+      "recorded_at": "2026-09-12T00:00:00Z"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "course_1",
+      "topic_id": "topic_1",
+      "title": "ПРИМЕР: замените на ваш курс",
+      "created_at": "2026-09-12T00:00:00Z",
+      "recorded_at": "2026-09-12T00:00:00Z"
+    }
+  ],
+  "course_versions": [
+    {
+      "version_id": "course_1:v1",
+      "course_id": "course_1",
+      "effective_at": "2026-09-12T00:00:00Z",
+      "recorded_at": "2026-09-12T00:00:00Z",
+      "sales_open_at": "2026-09-12T00:00:00Z",
+      "sales_close_at": "2026-10-01T00:00:00Z",
+      "starts_at": "2026-10-05T00:00:00Z",
+      "regular_price_minor": 1000000
+    }
+  ],
+  "placements": [
+    {
+      "placement_id": "placement_1",
+      "channel_id": "source_1",
+      "campaign_id": "campaign_1",
+      "published_at": "2026-09-12T00:00:00Z",
+      "recorded_at": "2026-09-12T00:00:00Z",
+      "quoted_cost_minor": null,
+      "advertised_course_id": "course_1"
+    }
+  ],
+  "placement_details": [
+    {
+      "placement_id": "placement_1",
+      "activity_type": "ad",
+      "recorded_at": "2026-09-12T00:00:00Z"
+    }
+  ],
+  "tracking_links": [
+    {
+      "link_id": "link_1",
+      "source_token": "campaign_token",
+      "source_channel_id": "source_1",
+      "placement_id": "placement_1",
+      "mechanism": "bot_start",
+      "created_at": "2026-09-12T00:00:00Z",
+      "recorded_at": "2026-09-12T00:00:00Z"
+    }
+  ]
+}

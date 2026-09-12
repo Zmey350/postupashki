@@ -1,0 +1,7 @@
+{
+  "required_roi": 0.3,
+  "payment_fee_rate": 0.02,
+  "refund_rate": 0.04,
+  "fixed_cost_minor": 200000,
+  "cost_per_contact_minor": 50
+}

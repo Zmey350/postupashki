@@ -1,0 +1,6 @@
+﻿model,reference,window_days,reallocated_rub,reallocated_share_of_sales_pct,changed_payment_records
+last_touch,last_touch,7,0.0,0.0,0
+first_touch,last_touch,7,19990.0,30.85352677882389,3
+linear,last_touch,7,10828.34,16.7129803982096,3
+time_decay,last_touch,7,8438.05,13.023691927766631,3
+position_based,last_touch,7,10495.0,16.198487420898285,3

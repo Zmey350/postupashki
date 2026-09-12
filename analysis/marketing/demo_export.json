@@ -1,0 +1,41 @@
+{
+  "name": "Synthetic public channel",
+  "type": "public_channel",
+  "id": 123456,
+  "_synthetic": true,
+  "messages": [
+    {
+      "id": 1,
+      "type": "message",
+      "date": "2026-08-08T10:00:00",
+      "date_unixtime": "1786172400",
+      "text": [
+        "Тестовая ",
+        {
+          "type": "bold",
+          "text": "распродажа"
+        },
+        ": учебный курс за 6 490 ₽. Записаться у менеджера."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "message",
+      "date": "2026-08-08T10:05:00",
+      "text": "Тестовое объявление. Реклама. erid: DEMO. Сторонний товар 1 000 ₽."
+    },
+    {
+      "id": 3,
+      "type": "message",
+      "date": "2026-08-09T09:00:00",
+      "text": "",
+      "photo": "synthetic_image_not_included.jpg"
+    },
+    {
+      "id": 4,
+      "type": "service",
+      "date": "2026-08-01T00:00:00",
+      "action": "create_channel"
+    }
+  ]
+}

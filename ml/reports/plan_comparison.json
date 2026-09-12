@@ -1,0 +1,368 @@
+{
+  "scenarios": [
+    {
+      "provenance": "synthetic",
+      "interpretation": "synthetic_demo",
+      "course_id": "ml_course",
+      "as_of": "2026-09-01T00:00:00.000000Z",
+      "horizon_days": 14,
+      "eligible_users": 5403,
+      "expected_buyers_current": 2204.1968083897,
+      "expected_buyers_scenario": 2204.1968083897,
+      "difference_buyers": 0.0,
+      "expected_revenue_current_uniform_timing_minor": 4408393616.779401,
+      "expected_revenue_scenario_uniform_timing_minor": 4408393616.779401,
+      "revenue_bounds_current_minor": [
+        4408393616.779401,
+        4408393616.779401
+      ],
+      "revenue_bounds_scenario_minor": [
+        4408393616.779401,
+        4408393616.779401
+      ],
+      "contribution_current_minor": 3152001435.9972715,
+      "contribution_scenario_before_campaign_cost_minor": 3152001435.9972715,
+      "campaign_cost_minor": 0.0,
+      "difference_contribution_after_campaign_cost_minor": 0.0,
+      "contribution_roi": null,
+      "plan_seen_in_training": true,
+      "extrapolation": {
+        "numeric_outside_training_range": {
+          "days_since_first_seen": 5403,
+          "days_since_last_activity": 791,
+          "orders_count_90d": 2,
+          "net_spend_90d_minor": 1,
+          "days_to_next_relevant_course_start": 41,
+          "course_days_to_start": 5403,
+          "course_days_to_sales_close": 5403,
+          "offer_warm_now": 24,
+          "offer_warm_mean": 24,
+          "offer_warm_end": 24,
+          "event_warm_now": 12,
+          "ad_warm_now": 445,
+          "ad_warm_mean": 445,
+          "ad_warm_end": 352
+        },
+        "unseen_categories": {
+          "first_source_channel_id": [
+            "ch0",
+            "ch1",
+            "ch2",
+            "ch3",
+            "ch4",
+            "ch5",
+            "ch6",
+            "ch7"
+          ]
+        }
+      },
+      "model": {
+        "trial": 1,
+        "model": "linear",
+        "parameters": {
+          "regularization": 0.1
+        },
+        "decay": "exponential:h3:s2:ec2:p1",
+        "fold_scores": [
+          0.36608130117291027,
+          0.5099386774935009
+        ],
+        "score": 0.43800998933320556,
+        "error": null
+      },
+      "test_metrics": {
+        "logloss": 0.46834593268802915,
+        "brier": 0.1492290359460565,
+        "average_precision": 0.4446551841103108,
+        "roc_auc": 0.6957947530864197,
+        "precision_top10": 0.5,
+        "base_rate": 0.2,
+        "predicted_buyers": 33.1540163001481,
+        "actual_buyers": 36
+      },
+      "quality_status": "better_than_baseline_on_test",
+      "assumptions": [
+        "Одна покупка выбранного курса на человека за горизонт; уже оплаченный невозвращённый курс исключён.",
+        "При меняющейся цене точечная выручка предполагает равномерное время покупки; границы отражают диапазон цен, не статистическую неопределённость.",
+        "Сравнение планов — модельный сценарий. Причинный эффект требует проверки на рандомизированных назначениях.",
+        "Публичная публикация не означает индивидуальное прочтение; план задаёт доступность/доставку контактов.",
+        "Другие курсы и перенос покупок за горизонт не включены; цена/условия вне истории обозначены как экстраполяция."
+      ],
+      "rows": null
+    },
+    {
+      "provenance": "synthetic",
+      "interpretation": "synthetic_demo",
+      "course_id": "ml_course",
+      "as_of": "2026-09-01T00:00:00.000000Z",
+      "horizon_days": 14,
+      "eligible_users": 5403,
+      "expected_buyers_current": 2204.1968083897,
+      "expected_buyers_scenario": 2460.9883440284284,
+      "difference_buyers": 256.7915356387284,
+      "expected_revenue_current_uniform_timing_minor": 4408393616.779401,
+      "expected_revenue_scenario_uniform_timing_minor": 4921976688.056856,
+      "revenue_bounds_current_minor": [
+        4408393616.779401,
+        4408393616.779401
+      ],
+      "revenue_bounds_scenario_minor": [
+        4921976688.056856,
+        4921976688.056856
+      ],
+      "contribution_current_minor": 3152001435.9972715,
+      "contribution_scenario_before_campaign_cost_minor": 3519213331.9606514,
+      "campaign_cost_minor": 740300.0,
+      "difference_contribution_after_campaign_cost_minor": 366471595.96337986,
+      "contribution_roi": 495.0311981134403,
+      "plan_seen_in_training": true,
+      "extrapolation": {
+        "numeric_outside_training_range": {
+          "days_since_first_seen": 5403,
+          "days_since_last_activity": 791,
+          "orders_count_90d": 2,
+          "net_spend_90d_minor": 1,
+          "days_to_next_relevant_course_start": 41,
+          "course_days_to_start": 5403,
+          "course_days_to_sales_close": 5403,
+          "offer_warm_now": 24,
+          "offer_warm_mean": 24,
+          "offer_warm_end": 24,
+          "event_warm_now": 12,
+          "ad_warm_now": 445,
+          "ad_warm_mean": 445,
+          "ad_warm_end": 352
+        },
+        "unseen_categories": {
+          "first_source_channel_id": [
+            "ch0",
+            "ch1",
+            "ch2",
+            "ch3",
+            "ch4",
+            "ch5",
+            "ch6",
+            "ch7"
+          ]
+        }
+      },
+      "model": {
+        "trial": 1,
+        "model": "linear",
+        "parameters": {
+          "regularization": 0.1
+        },
+        "decay": "exponential:h3:s2:ec2:p1",
+        "fold_scores": [
+          0.36608130117291027,
+          0.5099386774935009
+        ],
+        "score": 0.43800998933320556,
+        "error": null
+      },
+      "test_metrics": {
+        "logloss": 0.46834593268802915,
+        "brier": 0.1492290359460565,
+        "average_precision": 0.4446551841103108,
+        "roc_auc": 0.6957947530864197,
+        "precision_top10": 0.5,
+        "base_rate": 0.2,
+        "predicted_buyers": 33.1540163001481,
+        "actual_buyers": 36
+      },
+      "quality_status": "better_than_baseline_on_test",
+      "assumptions": [
+        "Одна покупка выбранного курса на человека за горизонт; уже оплаченный невозвращённый курс исключён.",
+        "При меняющейся цене точечная выручка предполагает равномерное время покупки; границы отражают диапазон цен, не статистическую неопределённость.",
+        "Сравнение планов — модельный сценарий. Причинный эффект требует проверки на рандомизированных назначениях.",
+        "Публичная публикация не означает индивидуальное прочтение; план задаёт доступность/доставку контактов.",
+        "Другие курсы и перенос покупок за горизонт не включены; цена/условия вне истории обозначены как экстраполяция."
+      ],
+      "rows": null
+    },
+    {
+      "provenance": "synthetic",
+      "interpretation": "synthetic_demo",
+      "course_id": "ml_course",
+      "as_of": "2026-09-01T00:00:00.000000Z",
+      "horizon_days": 14,
+      "eligible_users": 5403,
+      "expected_buyers_current": 2204.1968083897,
+      "expected_buyers_scenario": 2890.9874766050534,
+      "difference_buyers": 686.7906682153534,
+      "expected_revenue_current_uniform_timing_minor": 4408393616.779401,
+      "expected_revenue_scenario_uniform_timing_minor": 4625579962.568086,
+      "revenue_bounds_current_minor": [
+        4408393616.779401,
+        4408393616.779401
+      ],
+      "revenue_bounds_scenario_minor": [
+        4625579962.568086,
+        4625579962.568086
+      ],
+      "contribution_current_minor": 3152001435.9972715,
+      "contribution_scenario_before_campaign_cost_minor": 3047100800.3417263,
+      "campaign_cost_minor": 200000.0,
+      "difference_contribution_after_campaign_cost_minor": -105100635.65554523,
+      "contribution_roi": -525.5031782777262,
+      "plan_seen_in_training": true,
+      "extrapolation": {
+        "numeric_outside_training_range": {
+          "days_since_first_seen": 5403,
+          "days_since_last_activity": 791,
+          "orders_count_90d": 2,
+          "net_spend_90d_minor": 1,
+          "days_to_next_relevant_course_start": 41,
+          "course_days_to_start": 5403,
+          "course_days_to_sales_close": 5403,
+          "offer_warm_now": 24,
+          "offer_warm_mean": 24,
+          "offer_warm_end": 24,
+          "event_warm_now": 12,
+          "ad_warm_now": 445,
+          "ad_warm_mean": 445,
+          "ad_warm_end": 352
+        },
+        "unseen_categories": {
+          "first_source_channel_id": [
+            "ch0",
+            "ch1",
+            "ch2",
+            "ch3",
+            "ch4",
+            "ch5",
+            "ch6",
+            "ch7"
+          ]
+        }
+      },
+      "model": {
+        "trial": 1,
+        "model": "linear",
+        "parameters": {
+          "regularization": 0.1
+        },
+        "decay": "exponential:h3:s2:ec2:p1",
+        "fold_scores": [
+          0.36608130117291027,
+          0.5099386774935009
+        ],
+        "score": 0.43800998933320556,
+        "error": null
+      },
+      "test_metrics": {
+        "logloss": 0.46834593268802915,
+        "brier": 0.1492290359460565,
+        "average_precision": 0.4446551841103108,
+        "roc_auc": 0.6957947530864197,
+        "precision_top10": 0.5,
+        "base_rate": 0.2,
+        "predicted_buyers": 33.1540163001481,
+        "actual_buyers": 36
+      },
+      "quality_status": "better_than_baseline_on_test",
+      "assumptions": [
+        "Одна покупка выбранного курса на человека за горизонт; уже оплаченный невозвращённый курс исключён.",
+        "При меняющейся цене точечная выручка предполагает равномерное время покупки; границы отражают диапазон цен, не статистическую неопределённость.",
+        "Сравнение планов — модельный сценарий. Причинный эффект требует проверки на рандомизированных назначениях.",
+        "Публичная публикация не означает индивидуальное прочтение; план задаёт доступность/доставку контактов.",
+        "Другие курсы и перенос покупок за горизонт не включены; цена/условия вне истории обозначены как экстраполяция."
+      ],
+      "rows": null
+    },
+    {
+      "provenance": "synthetic",
+      "interpretation": "synthetic_demo",
+      "course_id": "ml_course",
+      "as_of": "2026-09-01T00:00:00.000000Z",
+      "horizon_days": 14,
+      "eligible_users": 5403,
+      "expected_buyers_current": 2204.1968083897,
+      "expected_buyers_scenario": 3152.6152312664,
+      "difference_buyers": 948.4184228766999,
+      "expected_revenue_current_uniform_timing_minor": 4408393616.779401,
+      "expected_revenue_scenario_uniform_timing_minor": 5044184370.02624,
+      "revenue_bounds_current_minor": [
+        4408393616.779401,
+        4408393616.779401
+      ],
+      "revenue_bounds_scenario_minor": [
+        5044184370.02624,
+        5044184370.02624
+      ],
+      "contribution_current_minor": 3152001435.9972715,
+      "contribution_scenario_before_campaign_cost_minor": 3322856453.754786,
+      "campaign_cost_minor": 1010450.0,
+      "difference_contribution_after_campaign_cost_minor": 169844567.75751448,
+      "contribution_roi": 168.08804765947298,
+      "plan_seen_in_training": true,
+      "extrapolation": {
+        "numeric_outside_training_range": {
+          "days_since_first_seen": 5403,
+          "days_since_last_activity": 791,
+          "orders_count_90d": 2,
+          "net_spend_90d_minor": 1,
+          "days_to_next_relevant_course_start": 41,
+          "course_days_to_start": 5403,
+          "course_days_to_sales_close": 5403,
+          "offer_warm_now": 24,
+          "offer_warm_mean": 24,
+          "offer_warm_end": 24,
+          "event_warm_now": 12,
+          "event_warm_mean": 12,
+          "event_warm_end": 12,
+          "ad_warm_now": 445,
+          "ad_warm_mean": 445,
+          "ad_warm_end": 352
+        },
+        "unseen_categories": {
+          "first_source_channel_id": [
+            "ch0",
+            "ch1",
+            "ch2",
+            "ch3",
+            "ch4",
+            "ch5",
+            "ch6",
+            "ch7"
+          ]
+        }
+      },
+      "model": {
+        "trial": 1,
+        "model": "linear",
+        "parameters": {
+          "regularization": 0.1
+        },
+        "decay": "exponential:h3:s2:ec2:p1",
+        "fold_scores": [
+          0.36608130117291027,
+          0.5099386774935009
+        ],
+        "score": 0.43800998933320556,
+        "error": null
+      },
+      "test_metrics": {
+        "logloss": 0.46834593268802915,
+        "brier": 0.1492290359460565,
+        "average_precision": 0.4446551841103108,
+        "roc_auc": 0.6957947530864197,
+        "precision_top10": 0.5,
+        "base_rate": 0.2,
+        "predicted_buyers": 33.1540163001481,
+        "actual_buyers": 36
+      },
+      "quality_status": "better_than_baseline_on_test",
+      "assumptions": [
+        "Одна покупка выбранного курса на человека за горизонт; уже оплаченный невозвращённый курс исключён.",
+        "При меняющейся цене точечная выручка предполагает равномерное время покупки; границы отражают диапазон цен, не статистическую неопределённость.",
+        "Сравнение планов — модельный сценарий. Причинный эффект требует проверки на рандомизированных назначениях.",
+        "Публичная публикация не означает индивидуальное прочтение; план задаёт доступность/доставку контактов.",
+        "Другие курсы и перенос покупок за горизонт не включены; цена/условия вне истории обозначены как экстраполяция."
+      ],
+      "rows": null
+    }
+  ],
+  "best_scenario_index": 1,
+  "selection_rule": "Максимальная модельная разница вклада после расходов среди переданных планов; условна на допущениях, не доказанный оптимум."
+}

@@ -1,0 +1,87 @@
+{
+  "purchase": {
+    "quality": {
+      "dropped_incomplete": 0,
+      "rows": 1080,
+      "buyers": 212
+    },
+    "winner": {
+      "trial": 1,
+      "model": "linear",
+      "parameters": {
+        "regularization": 0.1
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        0.36608130117291027,
+        0.5099386774935009
+      ],
+      "score": 0.43800998933320556,
+      "error": null
+    },
+    "test": {
+      "logloss": 0.46834593268802915,
+      "brier": 0.1492290359460565,
+      "average_precision": 0.4446551841103108,
+      "roc_auc": 0.6957947530864197,
+      "precision_top10": 0.5,
+      "base_rate": 0.2,
+      "predicted_buyers": 33.1540163001481,
+      "actual_buyers": 36
+    }
+  },
+  "new_users": {
+    "quality": {
+      "rows": 96,
+      "dropped": 0
+    },
+    "winner": {
+      "trial": 3,
+      "model": "extra",
+      "parameters": {
+        "leaf": 15,
+        "features": 0.8
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        24.90226078431373,
+        14.974144506486828
+      ],
+      "score": 19.938202645400278,
+      "error": null
+    },
+    "test": {
+      "mae": 11.200147218270113,
+      "rmse": 12.95060705658279,
+      "actual_total": 701.0,
+      "predicted_total": 826.5566516614113
+    }
+  },
+  "new_buyers": {
+    "quality": {
+      "rows": 96,
+      "dropped": 0
+    },
+    "winner": {
+      "trial": 3,
+      "model": "extra",
+      "parameters": {
+        "leaf": 15,
+        "features": 0.8
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        7.345891176470587,
+        7.567170989972562
+      ],
+      "score": 7.4565310832215745,
+      "error": null
+    },
+    "test": {
+      "mae": 4.659313718175245,
+      "rmse": 5.116521233966126,
+      "actual_total": 117.0,
+      "predicted_total": 158.65077716690166
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿evidence,ad_cost_rub,assumed_contribution_margin,historical_order_value_rub,incremental_revenue_break_even_rub,incremental_orders_break_even,max_break_even_incremental_CAC_rub
+historical_AOV_plus_hypothetical_margin,15000,0.4,9402.34342356688,37500.0,4,3760.937369426752
+historical_AOV_plus_hypothetical_margin,15000,0.6,9402.34342356688,25000.0,3,5641.406054140128
+historical_AOV_plus_hypothetical_margin,15000,0.8,9402.34342356688,18750.0,2,7521.874738853504
+historical_AOV_plus_hypothetical_margin,60000,0.4,9402.34342356688,150000.0,16,3760.937369426752
+historical_AOV_plus_hypothetical_margin,60000,0.6,9402.34342356688,100000.0,11,5641.406054140128
+historical_AOV_plus_hypothetical_margin,60000,0.8,9402.34342356688,75000.0,8,7521.874738853504
+historical_AOV_plus_hypothetical_margin,90000,0.4,9402.34342356688,225000.0,24,3760.937369426752
+historical_AOV_plus_hypothetical_margin,90000,0.6,9402.34342356688,150000.0,16,5641.406054140128
+historical_AOV_plus_hypothetical_margin,90000,0.8,9402.34342356688,112500.0,12,7521.874738853504
+historical_AOV_plus_hypothetical_margin,150000,0.4,9402.34342356688,375000.0,40,3760.937369426752
+historical_AOV_plus_hypothetical_margin,150000,0.6,9402.34342356688,250000.0,27,5641.406054140128
+historical_AOV_plus_hypothetical_margin,150000,0.8,9402.34342356688,187500.0,20,7521.874738853504
+historical_AOV_plus_hypothetical_margin,300000,0.4,9402.34342356688,750000.0,80,3760.937369426752
+historical_AOV_plus_hypothetical_margin,300000,0.6,9402.34342356688,500000.0,54,5641.406054140128
+historical_AOV_plus_hypothetical_margin,300000,0.8,9402.34342356688,375000.0,40,7521.874738853504

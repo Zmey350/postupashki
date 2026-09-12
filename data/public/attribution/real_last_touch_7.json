@@ -1,0 +1,17 @@
+{
+  "dataset_id": "sales_2026",
+  "provenance": "real",
+  "sales_policy": "legacy_sales_proxy",
+  "model": "last_touch",
+  "window_days": 7,
+  "half_life_days": null,
+  "sales_rub": 5904671.67,
+  "attributed_rub": 0.0,
+  "unknown_source_rub": 5904671.67,
+  "coverage_pct": 0.0,
+  "paid_orders": 628,
+  "buyers": 606,
+  "successful_records": 628,
+  "romi_pct": null,
+  "cost_complete": false
+}

@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "provenance": "synthetic",
+    "horizon_days": 14,
+    "trained_through": "2026-01-28T02:10:54.545454Z",
+    "versions": {
+      "python": "3.12.14",
+      "sklearn": "1.8.0",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3"
+    },
+    "available_at": "2026-04-23T13:05:27.272727Z",
+    "evaluated_through": "2026-07-18T00:00:00.000000Z",
+    "winner": {
+      "trial": 3,
+      "model": "extra",
+      "parameters": {
+        "leaf": 15,
+        "features": 0.8
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        7.345891176470587,
+        7.567170989972562
+      ],
+      "score": 7.4565310832215745,
+      "error": null
+    },
+    "skipped_models": [
+      "catboost не установлен; установите extra [boosting]",
+      "lightgbm не установлен; установите extra [boosting]"
+    ],
+    "split": {
+      "tuning_boundaries": [
+        "2025-08-28T21:49:05.454545Z",
+        "2025-11-22T08:43:38.181818Z",
+        "2026-02-15T19:38:10.909090Z"
+      ],
+      "calibration_start": "2026-02-15T19:38:10.909090Z",
+      "test_start": "2026-05-03T06:32:43.636363Z"
+    },
+    "rows": {
+      "fit": 64,
+      "calibration": 10,
+      "test": 13
+    },
+    "calibration": "none",
+    "numeric_ranges": {
+      "expected_views": [
+        1990.0,
+        10100.0
+      ],
+      "subscribers": [
+        12000.0,
+        26000.0
+      ],
+      "snapshot_age_days": [
+        1.0,
+        1.0
+      ],
+      "past_placements": [
+        0.0,
+        7.0
+      ],
+      "mature_placements": [
+        0.0,
+        7.0
+      ],
+      "days_since_last": [
+        42.72727272726852,
+        42.72727272728009
+      ],
+      "recent_placements_30d": [
+        0.0,
+        0.0
+      ],
+      "recent_pressure": [
+        0.0,
+        2.579789667378494e-05
+      ],
+      "mean3_new": [
+        18.0,
+        112.0
+      ],
+      "previous_mean3_new": [
+        29.0,
+        108.33333333333333
+      ],
+      "last_new": [
+        15.0,
+        123.0
+      ],
+      "mean3_day1": [
+        6.333333333333333,
+        57.0
+      ],
+      "mean3_day3": [
+        14.666666666666666,
+        96.33333333333333
+      ],
+      "trend_slope": [
+        -25.000000000000007,
+        13.000000000000007
+      ],
+      "observed_responders": [
+        0.0,
+        851.0
+      ],
+      "observed_cross_source_share": [
+        0.19444444444444445,
+        0.5333333333333333
+      ],
+      "new_share_recent": [
+        0.47368421052631576,
+        1.0
+      ],
+      "course_price": [
+        20000.0,
+        20000.0
+      ],
+      "days_to_start": [
+        367.90909090909724,
+        688.0
+      ],
+      "discount_pct": [
+        0.0,
+        20.0
+      ],
+      "discount_days": [
+        0.0,
+        14.0
+      ],
+      "weekday": [
+        0.0,
+        6.0
+      ],
+      "month": [
+        1.0,
+        12.0
+      ],
+      "past_new_buyers": [
+        0.0,
+        168.0
+      ],
+      "past_new_users_mature": [
+        0.0,
+        761.0
+      ],
+      "past_conversion": [
+        0.07142857142857142,
+        0.24776785714285715
+      ],
+      "planned_message": [
+        0.0,
+        0.2308086582899842
+      ],
+      "planned_message_count": [
+        0.0,
+        2.0
+      ],
+      "planned_event": [
+        0.0,
+        0.12084228783770125
+      ],
+      "planned_event_count": [
+        0.0,
+        1.0
+      ],
+      "planned_ad": [
+        0.0,
+        0.0
+      ],
+      "planned_ad_count": [
+        0.0,
+        0.0
+      ]
+    },
+    "categories": {
+      "channel_id": [
+        "ch0",
+        "ch1",
+        "ch2",
+        "ch3",
+        "ch4",
+        "ch5",
+        "ch6",
+        "ch7"
+      ],
+      "channel_topic": [
+        "ml"
+      ],
+      "course_topic": [
+        "ml"
+      ],
+      "audience_stage": [
+        "university"
+      ]
+    },
+    "seed": 42,
+    "interval_note": "Empirical out-of-time absolute-error band; no coverage guarantee under drift",
+    "interpretation": "synthetic_demo",
+    "test_metrics": {
+      "mae": 4.659313718175245,
+      "rmse": 5.116521233966126,
+      "actual_total": 117.0,
+      "predicted_total": 158.65077716690166
+    },
+    "test_baseline_metrics": {
+      "mae": 7.121394230769231,
+      "rmse": 8.63039499086324,
+      "actual_total": 117.0,
+      "predicted_total": 154.171875
+    },
+    "beats_test_baseline": true,
+    "quality_status": "better_than_baseline_on_test"
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "model": "baseline",
+      "parameters": {},
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        7.8875,
+        9.2625
+      ],
+      "score": 8.575,
+      "error": null
+    },
+    {
+      "trial": 1,
+      "model": "linear",
+      "parameters": {
+        "regularization": 0.1
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        52.759031750734245,
+        18.791029638016177
+      ],
+      "score": 35.77503069437521,
+      "error": null
+    },
+    {
+      "trial": 2,
+      "model": "hist",
+      "parameters": {
+        "depth": 3,
+        "l2": 5
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        7.8875,
+        7.980008914738799
+      ],
+      "score": 7.9337544573694,
+      "error": null
+    },
+    {
+      "trial": 3,
+      "model": "extra",
+      "parameters": {
+        "leaf": 15,
+        "features": 0.8
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        7.345891176470587,
+        7.567170989972562
+      ],
+      "score": 7.4565310832215745,
+      "error": null
+    },
+    {
+      "trial": 4,
+      "model": "linear",
+      "parameters": {
+        "regularization": 0.1
+      },
+      "decay": "weibull_survival:h7:s0.7:ec3:p1",
+      "fold_scores": [
+        54.63079820807836,
+        18.802053313976234
+      ],
+      "score": 36.716425761027295,
+      "error": null
+    },
+    {
+      "trial": 5,
+      "model": "linear",
+      "parameters": {
+        "regularization": 0.1
+      },
+      "decay": "exponential:h10:s2:ec4:p1",
+      "fold_scores": [
+        53.032901554981414,
+        18.78198135700618
+      ],
+      "score": 35.9074414559938,
+      "error": null
+    },
+    {
+      "trial": 6,
+      "model": "hist",
+      "parameters": {
+        "depth": 3,
+        "l2": 5
+      },
+      "decay": "weibull_delayed:h5:s2:ec3:p1",
+      "fold_scores": [
+        7.8875,
+        7.289064968543096
+      ],
+      "score": 7.588282484271549,
+      "error": null
+    },
+    {
+      "trial": 7,
+      "model": "extra",
+      "parameters": {
+        "leaf": 15,
+        "features": 0.8
+      },
+      "decay": "exponential:h10:s2:ec4:p1",
+      "fold_scores": [
+        7.345891176470587,
+        7.567170989972562
+      ],
+      "score": 7.4565310832215745,
+      "error": null
+    }
+  ]
+}

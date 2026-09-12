@@ -1,0 +1,5 @@
+﻿candidate_id,placement_id,campaign_id,creative_id,channel_url,quoted_cost_rub,pilot_cap_rub,publisher_audience_fit,placement_time,tracking_token,known_overlap,decision
+candidate_01,future_p01,future_campaign,future_c01,,,15000,,,future_p01,,unfilled_candidate_not_a_booking
+candidate_02,future_p02,future_campaign,future_c02,,,15000,,,future_p02,,unfilled_candidate_not_a_booking
+candidate_03,future_p03,future_campaign,future_c03,,,15000,,,future_p03,,unfilled_candidate_not_a_booking
+candidate_04,future_p04,future_campaign,future_c04,,,15000,,,future_p04,,unfilled_candidate_not_a_booking

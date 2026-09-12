@@ -1,0 +1,2 @@
+# Only the experiment calculator needs a third-party library.
+scipy==1.17.0

@@ -1,0 +1,370 @@
+{
+  "dataset": {
+    "id": "demo_2026",
+    "label": "Демонстрация: синтетические события и суммы",
+    "provenance": "synthetic",
+    "clock": "UTC",
+    "sales_policy": "recorded_payments"
+  },
+  "records": [
+    {
+      "type": "placement",
+      "id": "p_a",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_a",
+      "channel": "Учебный канал А",
+      "kind": "external",
+      "publication_time": "2026-09-01T08:00:00Z",
+      "cost": "2000",
+      "token": "demo_p_a"
+    },
+    {
+      "type": "placement",
+      "id": "p_b",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_b",
+      "channel": "Учебный канал Б",
+      "kind": "external",
+      "publication_time": "2026-09-02T08:00:00Z",
+      "cost": "3000",
+      "token": "demo_p_b"
+    },
+    {
+      "type": "placement",
+      "id": "p_owned",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_owned",
+      "channel": "Собственный учебный канал",
+      "kind": "owned",
+      "publication_time": "2026-09-03T08:00:00Z",
+      "cost": "0",
+      "token": "demo_p_owned"
+    },
+    {
+      "type": "placement",
+      "id": "p_unknown",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_unknown",
+      "channel": "Канал с неизвестной ценой размещения",
+      "kind": "external",
+      "publication_time": "2026-09-05T08:00:00Z",
+      "cost": null,
+      "token": "demo_p_unknown"
+    },
+    {
+      "type": "placement",
+      "id": "p_unused",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_unused",
+      "channel": "Размещение без продаж",
+      "kind": "external",
+      "publication_time": "2026-09-04T08:00:00Z",
+      "cost": "1000",
+      "token": "demo_p_unused"
+    },
+    {
+      "type": "touch",
+      "id": "t1a",
+      "user_key": "u1",
+      "event_type": "bot_start",
+      "occurred_at": "2026-09-01T10:00:00Z",
+      "token": "demo_p_a"
+    },
+    {
+      "type": "touch",
+      "id": "t1b",
+      "user_key": "u1",
+      "event_type": "bot_start",
+      "occurred_at": "2026-09-02T10:00:00Z",
+      "placement_id": "p_b"
+    },
+    {
+      "type": "lead",
+      "id": "lead_o1",
+      "user_key": "u1",
+      "interest": "ML старт + Алгоритмы старт",
+      "created_at": "2026-09-02T11:00:00Z"
+    },
+    {
+      "type": "order",
+      "id": "o1",
+      "user_key": "u1",
+      "created_at": "2026-09-02T12:00:00Z",
+      "items": [
+        {
+          "course": "ML старт",
+          "amount": "4995"
+        },
+        {
+          "course": "Алгоритмы старт",
+          "amount": "4995"
+        }
+      ],
+      "lead_id": "lead_o1"
+    },
+    {
+      "type": "payment",
+      "id": "pay1",
+      "order_id": "o1",
+      "amount": "9990",
+      "status": "succeeded",
+      "occurred_at": "2026-09-03T13:00:00Z"
+    },
+    {
+      "type": "touch",
+      "id": "t2a",
+      "user_key": "u2",
+      "event_type": "bot_start",
+      "occurred_at": "2026-09-02T10:00:00Z",
+      "placement_id": "p_a"
+    },
+    {
+      "type": "lead",
+      "id": "lead_o2",
+      "user_key": "u2",
+      "interest": "Аналитика старт",
+      "created_at": "2026-09-04T11:00:00Z"
+    },
+    {
+      "type": "order",
+      "id": "o2",
+      "user_key": "u2",
+      "created_at": "2026-09-04T12:00:00Z",
+      "items": [
+        {
+          "course": "Аналитика старт",
+          "amount": "8950"
+        }
+      ],
+      "lead_id": "lead_o2"
+    },
+    {
+      "type": "payment",
+      "id": "pay2",
+      "order_id": "o2",
+      "amount": "8950",
+      "status": "succeeded",
+      "occurred_at": "2026-09-04T13:00:00Z"
+    },
+    {
+      "type": "order",
+      "id": "o3",
+      "user_key": "u3",
+      "created_at": "2026-09-04T12:00:00Z",
+      "items": [
+        {
+          "course": "Теория вероятностей",
+          "amount": "6950"
+        }
+      ]
+    },
+    {
+      "type": "payment",
+      "id": "pay3",
+      "order_id": "o3",
+      "amount": "6950",
+      "status": "succeeded",
+      "occurred_at": "2026-09-04T13:00:00Z"
+    },
+    {
+      "type": "touch",
+      "id": "t4a",
+      "user_key": "u4",
+      "event_type": "bot_start",
+      "occurred_at": "2026-09-01T10:00:00Z",
+      "placement_id": "p_a"
+    },
+    {
+      "type": "lead",
+      "id": "lead_o4",
+      "user_key": "u4",
+      "interest": "AI агенты",
+      "created_at": "2026-09-12T11:00:00Z"
+    },
+    {
+      "type": "order",
+      "id": "o4",
+      "user_key": "u4",
+      "created_at": "2026-09-12T12:00:00Z",
+      "items": [
+        {
+          "course": "AI агенты",
+          "amount": "8950"
+        }
+      ],
+      "lead_id": "lead_o4"
+    },
+    {
+      "type": "payment",
+      "id": "pay4",
+      "order_id": "o4",
+      "amount": "8950",
+      "status": "succeeded",
+      "occurred_at": "2026-09-12T13:00:00Z"
+    },
+    {
+      "type": "touch",
+      "id": "t5x",
+      "user_key": "u5",
+      "event_type": "bot_start",
+      "occurred_at": "2026-09-05T10:00:00Z",
+      "placement_id": "p_unknown"
+    },
+    {
+      "type": "lead",
+      "id": "lead_o5",
+      "user_key": "u5",
+      "interest": "AI агенты + ML про",
+      "created_at": "2026-09-06T11:00:00Z"
+    },
+    {
+      "type": "order",
+      "id": "o5",
+      "user_key": "u5",
+      "created_at": "2026-09-06T12:00:00Z",
+      "items": [
+        {
+          "course": "AI агенты",
+          "amount": "7475"
+        },
+        {
+          "course": "ML про",
+          "amount": "7475"
+        }
+      ],
+      "lead_id": "lead_o5"
+    },
+    {
+      "type": "payment",
+      "id": "pay5",
+      "order_id": "o5",
+      "amount": "14950",
+      "status": "succeeded",
+      "occurred_at": "2026-09-06T13:00:00Z"
+    },
+    {
+      "type": "touch",
+      "id": "t1owned",
+      "user_key": "u1",
+      "event_type": "post_click",
+      "occurred_at": "2026-09-07T10:00:00Z",
+      "placement_id": "p_owned"
+    },
+    {
+      "type": "lead",
+      "id": "lead_o6",
+      "user_key": "u1",
+      "interest": "Аналитика про",
+      "created_at": "2026-09-07T11:00:00Z"
+    },
+    {
+      "type": "order",
+      "id": "o6",
+      "user_key": "u1",
+      "created_at": "2026-09-07T12:00:00Z",
+      "items": [
+        {
+          "course": "Аналитика про",
+          "amount": "5000"
+        }
+      ],
+      "lead_id": "lead_o6"
+    },
+    {
+      "type": "payment",
+      "id": "pay6",
+      "order_id": "o6",
+      "amount": "5000",
+      "status": "succeeded",
+      "occurred_at": "2026-09-08T09:00:00Z"
+    },
+    {
+      "type": "touch",
+      "id": "t6b",
+      "user_key": "u6",
+      "event_type": "bot_start",
+      "occurred_at": "2026-09-06T10:00:00Z",
+      "placement_id": "p_b"
+    },
+    {
+      "type": "lead",
+      "id": "lead_o7",
+      "user_key": "u6",
+      "interest": "Алгоритмы про",
+      "created_at": "2026-09-06T11:00:00Z"
+    },
+    {
+      "type": "order",
+      "id": "o7",
+      "user_key": "u6",
+      "created_at": "2026-09-06T12:00:00Z",
+      "items": [
+        {
+          "course": "Алгоритмы про",
+          "amount": "4500"
+        }
+      ],
+      "lead_id": "lead_o7"
+    },
+    {
+      "type": "payment",
+      "id": "pay7failed",
+      "order_id": "o7",
+      "amount": "4500",
+      "status": "failed",
+      "occurred_at": "2026-09-06T13:00:00Z"
+    },
+    {
+      "type": "touch",
+      "id": "t7a",
+      "user_key": "u7",
+      "event_type": "bot_start",
+      "occurred_at": "2026-09-09T10:00:00Z",
+      "placement_id": "p_a"
+    },
+    {
+      "type": "lead",
+      "id": "lead_o8",
+      "user_key": "u7",
+      "interest": "К ВУЗу",
+      "created_at": "2026-09-09T11:00:00Z"
+    },
+    {
+      "type": "order",
+      "id": "o8",
+      "user_key": "u7",
+      "created_at": "2026-09-09T12:00:00Z",
+      "items": [
+        {
+          "course": "К ВУЗу",
+          "amount": "10000"
+        }
+      ],
+      "lead_id": "lead_o8"
+    },
+    {
+      "type": "payment",
+      "id": "pay8part1",
+      "order_id": "o8",
+      "amount": "5000",
+      "status": "succeeded",
+      "occurred_at": "2026-09-09T13:00:00Z"
+    },
+    {
+      "type": "touch",
+      "id": "t7b",
+      "user_key": "u7",
+      "event_type": "bot_start",
+      "occurred_at": "2026-09-10T10:00:00Z",
+      "placement_id": "p_b"
+    },
+    {
+      "type": "payment",
+      "id": "pay8part2",
+      "order_id": "o8",
+      "amount": "5000",
+      "status": "succeeded",
+      "occurred_at": "2026-09-10T13:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "discount_pct": 20,
+  "discount_days": 14,
+  "contacts": [
+    {"day": 0, "kind": "message"},
+    {"day": 4, "kind": "event"},
+    {"day": 9, "kind": "message"}
+  ]
+}

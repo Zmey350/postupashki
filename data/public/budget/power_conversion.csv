@@ -1,0 +1,7 @@
+﻿evidence,p_control,p_treatment,absolute_lift_pp,relative_lift_pct,alpha_two_sided,power,n_per_arm,n_total,expected_control_buyers
+hypothetical_scenario,0.01,0.012,0.2,20.0,0.05,0.8,42693,85386,426.93
+hypothetical_scenario,0.01,0.015,0.49999999999999994,50.0,0.05,0.8,7750,15500,77.5
+hypothetical_scenario,0.02,0.024,0.4,20.0,0.05,0.8,21109,42218,422.18
+hypothetical_scenario,0.02,0.03,0.9999999999999999,50.0,0.05,0.8,3826,7652,76.52
+hypothetical_scenario,0.05,0.06,0.9999999999999996,20.0,0.05,0.8,8158,16316,407.90000000000003
+hypothetical_scenario,0.05,0.07500000000000001,2.500000000000001,50.0,0.05,0.8,1471,2942,73.55

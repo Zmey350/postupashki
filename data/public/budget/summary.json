@@ -1,0 +1,467 @@
+{
+  "historical": {
+    "orders": 628,
+    "buyers": 606,
+    "revenue_rub": 5904671.67,
+    "mean_order_rub": 9402.34342356688,
+    "real_incremental_effect": null,
+    "real_incremental_ROMI": null,
+    "audience_size": null,
+    "conversion_base": null,
+    "contribution_margin": null
+  },
+  "proposal": {
+    "budget_rub": 300000,
+    "stages": [
+      {
+        "stage": "pilot",
+        "label": "Измерительный пилот",
+        "cap_rub": 60000,
+        "share_pct": 20,
+        "release_rule": "Четыре кандидата; потолок 15000 на источник. Нужны фактическая цена и рабочая связь перехода с оплатой.",
+        "result": "Стоимость и качество наблюдаемых обращений; причинная окупаемость не заявляется."
+      },
+      {
+        "stage": "confirmation",
+        "label": "Подтверждение одной гипотезы",
+        "cap_rub": 90000,
+        "share_pct": 30,
+        "release_rule": "Есть контроль до рекламного контакта в нужной аудитории и достаточный заранее рассчитанный размер.",
+        "result": "Один отдельный эксперимент на новой выборке. Если дизайн недоступен, деньги остаются в резерве."
+      },
+      {
+        "stage": "scale",
+        "label": "Последовательное масштабирование",
+        "cap_rub": 150000,
+        "share_pct": 50,
+        "release_rule": "Нижняя граница дополнительного маржинального дохода покрывает дополнительные рекламные расходы.",
+        "result": "До трёх траншей по 50000 с новой проверкой условий цены и аудитории."
+      }
+    ],
+    "actual_spend_rub": 0,
+    "not_an_estimate_of_market_prices": true,
+    "must_not_spend_reserve_without_release_conditions": true
+  },
+  "power_conversion": [
+    {
+      "evidence": "hypothetical_scenario",
+      "p_control": 0.01,
+      "p_treatment": 0.012,
+      "absolute_lift_pp": 0.2,
+      "relative_lift_pct": 20.0,
+      "alpha_two_sided": 0.05,
+      "power": 0.8,
+      "n_per_arm": 42693,
+      "n_total": 85386,
+      "expected_control_buyers": 426.93
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "p_control": 0.01,
+      "p_treatment": 0.015,
+      "absolute_lift_pp": 0.49999999999999994,
+      "relative_lift_pct": 50.0,
+      "alpha_two_sided": 0.05,
+      "power": 0.8,
+      "n_per_arm": 7750,
+      "n_total": 15500,
+      "expected_control_buyers": 77.5
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "p_control": 0.02,
+      "p_treatment": 0.024,
+      "absolute_lift_pp": 0.4,
+      "relative_lift_pct": 20.0,
+      "alpha_two_sided": 0.05,
+      "power": 0.8,
+      "n_per_arm": 21109,
+      "n_total": 42218,
+      "expected_control_buyers": 422.18
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "p_control": 0.02,
+      "p_treatment": 0.03,
+      "absolute_lift_pp": 0.9999999999999999,
+      "relative_lift_pct": 50.0,
+      "alpha_two_sided": 0.05,
+      "power": 0.8,
+      "n_per_arm": 3826,
+      "n_total": 7652,
+      "expected_control_buyers": 76.52
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "p_control": 0.05,
+      "p_treatment": 0.06,
+      "absolute_lift_pp": 0.9999999999999996,
+      "relative_lift_pct": 20.0,
+      "alpha_two_sided": 0.05,
+      "power": 0.8,
+      "n_per_arm": 8158,
+      "n_total": 16316,
+      "expected_control_buyers": 407.90000000000003
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "p_control": 0.05,
+      "p_treatment": 0.07500000000000001,
+      "absolute_lift_pp": 2.500000000000001,
+      "relative_lift_pct": 50.0,
+      "alpha_two_sided": 0.05,
+      "power": 0.8,
+      "n_per_arm": 1471,
+      "n_total": 2942,
+      "expected_control_buyers": 73.55
+    }
+  ],
+  "mde_by_audience": [
+    {
+      "evidence": "hypothetical_scenario",
+      "n_total": 500,
+      "n_per_arm": 250,
+      "p_control": 0.02,
+      "mde_pp": 5.250633633930632,
+      "expected_control_buyers": 5.0,
+      "small_expected_count_warning": true
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "n_total": 1000,
+      "n_per_arm": 500,
+      "p_control": 0.02,
+      "mde_pp": 3.3241830569045603,
+      "expected_control_buyers": 10.0,
+      "small_expected_count_warning": false
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "n_total": 2000,
+      "n_per_arm": 1000,
+      "p_control": 0.02,
+      "mde_pp": 2.1641446177110497,
+      "expected_control_buyers": 20.0,
+      "small_expected_count_warning": false
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "n_total": 5000,
+      "n_per_arm": 2500,
+      "p_control": 0.02,
+      "mde_pp": 1.2687896978164008,
+      "expected_control_buyers": 50.0,
+      "small_expected_count_warning": false
+    },
+    {
+      "evidence": "hypothetical_scenario",
+      "n_total": 10000,
+      "n_per_arm": 5000,
+      "p_control": 0.02,
+      "mde_pp": 0.8629212277311428,
+      "expected_control_buyers": 100.0,
+      "small_expected_count_warning": false
+    }
+  ],
+  "break_even": [
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 15000,
+      "assumed_contribution_margin": 0.4,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 37500.0,
+      "incremental_orders_break_even": 4,
+      "max_break_even_incremental_CAC_rub": 3760.937369426752
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 15000,
+      "assumed_contribution_margin": 0.6,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 25000.0,
+      "incremental_orders_break_even": 3,
+      "max_break_even_incremental_CAC_rub": 5641.406054140128
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 15000,
+      "assumed_contribution_margin": 0.8,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 18750.0,
+      "incremental_orders_break_even": 2,
+      "max_break_even_incremental_CAC_rub": 7521.874738853504
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 60000,
+      "assumed_contribution_margin": 0.4,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 150000.0,
+      "incremental_orders_break_even": 16,
+      "max_break_even_incremental_CAC_rub": 3760.937369426752
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 60000,
+      "assumed_contribution_margin": 0.6,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 100000.0,
+      "incremental_orders_break_even": 11,
+      "max_break_even_incremental_CAC_rub": 5641.406054140128
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 60000,
+      "assumed_contribution_margin": 0.8,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 75000.0,
+      "incremental_orders_break_even": 8,
+      "max_break_even_incremental_CAC_rub": 7521.874738853504
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 90000,
+      "assumed_contribution_margin": 0.4,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 225000.0,
+      "incremental_orders_break_even": 24,
+      "max_break_even_incremental_CAC_rub": 3760.937369426752
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 90000,
+      "assumed_contribution_margin": 0.6,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 150000.0,
+      "incremental_orders_break_even": 16,
+      "max_break_even_incremental_CAC_rub": 5641.406054140128
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 90000,
+      "assumed_contribution_margin": 0.8,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 112500.0,
+      "incremental_orders_break_even": 12,
+      "max_break_even_incremental_CAC_rub": 7521.874738853504
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 150000,
+      "assumed_contribution_margin": 0.4,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 375000.0,
+      "incremental_orders_break_even": 40,
+      "max_break_even_incremental_CAC_rub": 3760.937369426752
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 150000,
+      "assumed_contribution_margin": 0.6,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 250000.0,
+      "incremental_orders_break_even": 27,
+      "max_break_even_incremental_CAC_rub": 5641.406054140128
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 150000,
+      "assumed_contribution_margin": 0.8,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 187500.0,
+      "incremental_orders_break_even": 20,
+      "max_break_even_incremental_CAC_rub": 7521.874738853504
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 300000,
+      "assumed_contribution_margin": 0.4,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 750000.0,
+      "incremental_orders_break_even": 80,
+      "max_break_even_incremental_CAC_rub": 3760.937369426752
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 300000,
+      "assumed_contribution_margin": 0.6,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 500000.0,
+      "incremental_orders_break_even": 54,
+      "max_break_even_incremental_CAC_rub": 5641.406054140128
+    },
+    {
+      "evidence": "historical_AOV_plus_hypothetical_margin",
+      "ad_cost_rub": 300000,
+      "assumed_contribution_margin": 0.8,
+      "historical_order_value_rub": 9402.34342356688,
+      "incremental_revenue_break_even_rub": 375000.0,
+      "incremental_orders_break_even": 40,
+      "max_break_even_incremental_CAC_rub": 7521.874738853504
+    }
+  ],
+  "power_contribution": [
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 1000,
+      "p_control": 0.02,
+      "positive_value_cv": 0.0,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 789.7968475796177,
+      "mde_cm_per_eligible_rub": 139.94237137123883,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 120.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 259.94237137123883
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 1000,
+      "p_control": 0.02,
+      "positive_value_cv": 0.75,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 990.8660408744474,
+      "mde_cm_per_eligible_rub": 175.56938077955877,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 120.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 295.56938077955874
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 1000,
+      "p_control": 0.02,
+      "positive_value_cv": 1.5,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 1433.8496652343656,
+      "mde_cm_per_eligible_rub": 254.06067770171282,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 120.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 374.06067770171285
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 2000,
+      "p_control": 0.02,
+      "positive_value_cv": 0.0,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 789.7968475796177,
+      "mde_cm_per_eligible_rub": 98.95419977192917,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 60.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 158.95419977192915
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 2000,
+      "p_control": 0.02,
+      "positive_value_cv": 0.75,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 990.8660408744474,
+      "mde_cm_per_eligible_rub": 124.14629971794912,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 60.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 184.14629971794912
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 2000,
+      "p_control": 0.02,
+      "positive_value_cv": 1.5,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 1433.8496652343656,
+      "mde_cm_per_eligible_rub": 179.64802803573104,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 60.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 239.64802803573104
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 5000,
+      "p_control": 0.02,
+      "positive_value_cv": 0.0,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 789.7968475796177,
+      "mde_cm_per_eligible_rub": 62.58413106372211,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 24.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 86.58413106372211
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 5000,
+      "p_control": 0.02,
+      "positive_value_cv": 0.75,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 990.8660408744474,
+      "mde_cm_per_eligible_rub": 78.5170140381277,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 24.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 102.5170140381277
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 5000,
+      "p_control": 0.02,
+      "positive_value_cv": 1.5,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 1433.8496652343656,
+      "mde_cm_per_eligible_rub": 113.61938915013899,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 24.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 137.619389150139
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 10000,
+      "p_control": 0.02,
+      "positive_value_cv": 0.0,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 789.7968475796177,
+      "mde_cm_per_eligible_rub": 44.25366346982556,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 12.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 56.25366346982556
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 10000,
+      "p_control": 0.02,
+      "positive_value_cv": 0.75,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 990.8660408744474,
+      "mde_cm_per_eligible_rub": 55.51991306487944,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 12.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 67.51991306487943
+    },
+    {
+      "evidence": "hypothetical_primary_metric_planning",
+      "n_total": 10000,
+      "p_control": 0.02,
+      "positive_value_cv": 1.5,
+      "assumed_margin": 0.6,
+      "sigma_cm_per_eligible_rub": 1433.8496652343656,
+      "mde_cm_per_eligible_rub": 80.34104054233653,
+      "incremental_ad_cost_rub": 60000,
+      "cost_per_treatment_unit_rub": 12.0,
+      "approx_effect_needed_to_detect_profit_rub_per_unit": 92.34104054233653
+    }
+  ],
+  "primary_protocol": {
+    "unit": "eligible_person_before_contact",
+    "allocation": "complete_randomization_1_to_1",
+    "primary_metric": "14_day_contribution_before_marketing_per_assigned_person",
+    "purchase_window_days": 14,
+    "reconciliation_lag_days": 7,
+    "primary_readout_day": 21,
+    "secondary_window_days": 28,
+    "secondary_readout_day": 35,
+    "primary_comparisons": 1,
+    "alpha_two_sided": 0.05,
+    "audience_and_contact_control_available": null,
+    "owned_message_effect_transfers_to_paid_acquisition": false
+  },
+  "historical_identification_status": "no_randomized_assignment_no_control_no_eligible_nonbuyers",
+  "input_sha256": {
+    "metrics.json": "81a4c33a7abd470b9fc7e4692a964919bbe6d85c874815f23d156671d806e7f3"
+  }
+}

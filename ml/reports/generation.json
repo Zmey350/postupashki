@@ -1,0 +1,15 @@
+{
+  "db": "data/demo.sqlite3",
+  "cutoff": "2026-09-01T00:00:00.000000Z",
+  "provenance": "synthetic",
+  "seed": 42,
+  "counts": {
+    "users": 6616,
+    "placements": 96,
+    "orders": 1260,
+    "payments": 1593,
+    "ml_decisions": 1080,
+    "ml_contacts": 4117
+  },
+  "note": "Это искусственный мир с заданными зависимостями, не оценка реального эффекта акций."
+}

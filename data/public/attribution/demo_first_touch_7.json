@@ -1,0 +1,182 @@
+{
+  "dataset": {
+    "id": "demo_2026",
+    "label": "Демонстрация: синтетические события и суммы",
+    "provenance": "synthetic",
+    "clock": "UTC",
+    "sales_policy": "recorded_payments"
+  },
+  "as_of": "2026-09-15T00:00:00.000000+00:00",
+  "model": "first_touch",
+  "window_days": 7,
+  "linear_policy": "equal_unique_placements",
+  "tie_policy": "time_then_event_id",
+  "decay_policy": "latest_touch_per_unique_placement",
+  "half_life_days": null,
+  "position_policy": "40_first_40_last_20_unique_interior; no_interior_50_50",
+  "rounding_policy": "largest_remainder_then_placement_id",
+  "totals": {
+    "sales_cents": 6479000,
+    "attributed_cents": 4889000,
+    "unattributed_cents": 1590000,
+    "successful_payments": 8,
+    "paid_orders": 7,
+    "buyers": 6,
+    "known_cost_cents": 600000,
+    "cost_complete": false,
+    "placements_with_unknown_cost": 1,
+    "coverage_pct": 75.45917579873438,
+    "romi_pct": null
+  },
+  "registered_records": {
+    "touches": 9,
+    "leads": 7,
+    "orders": 8
+  },
+  "placements": [
+    {
+      "placement_id": "p_a",
+      "channel": "Учебный канал А",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_a",
+      "kind": "external",
+      "cost_cents": 200000,
+      "attributed_cents": 3394000,
+      "buyers": 3,
+      "orders": 4,
+      "payments": 5,
+      "romi_pct": 1597.0,
+      "romi_status": "calculated"
+    },
+    {
+      "placement_id": "p_b",
+      "channel": "Учебный канал Б",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_b",
+      "kind": "external",
+      "cost_cents": 300000,
+      "attributed_cents": 0,
+      "buyers": 0,
+      "orders": 0,
+      "payments": 0,
+      "romi_pct": -100.0,
+      "romi_status": "calculated"
+    },
+    {
+      "placement_id": "p_owned",
+      "channel": "Собственный учебный канал",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_owned",
+      "kind": "owned",
+      "cost_cents": 0,
+      "attributed_cents": 0,
+      "buyers": 0,
+      "orders": 0,
+      "payments": 0,
+      "romi_pct": null,
+      "romi_status": "zero_cost"
+    },
+    {
+      "placement_id": "p_unknown",
+      "channel": "Канал с неизвестной ценой размещения",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_unknown",
+      "kind": "external",
+      "cost_cents": null,
+      "attributed_cents": 1495000,
+      "buyers": 1,
+      "orders": 1,
+      "payments": 1,
+      "romi_pct": null,
+      "romi_status": "unknown_cost"
+    },
+    {
+      "placement_id": "p_unused",
+      "channel": "Размещение без продаж",
+      "campaign_id": "demo_launch",
+      "creative_id": "creative_p_unused",
+      "kind": "external",
+      "cost_cents": 100000,
+      "attributed_cents": 0,
+      "buyers": 0,
+      "orders": 0,
+      "payments": 0,
+      "romi_pct": -100.0,
+      "romi_status": "calculated"
+    }
+  ],
+  "allocations": [
+    {
+      "payment_id": "pay1",
+      "order_id": "o1",
+      "user_key": "u1",
+      "placement_id": "p_a",
+      "amount_cents": 999000,
+      "weight_numerator": 1,
+      "weight_denominator": 1
+    },
+    {
+      "payment_id": "pay2",
+      "order_id": "o2",
+      "user_key": "u2",
+      "placement_id": "p_a",
+      "amount_cents": 895000,
+      "weight_numerator": 1,
+      "weight_denominator": 1
+    },
+    {
+      "payment_id": "pay5",
+      "order_id": "o5",
+      "user_key": "u5",
+      "placement_id": "p_unknown",
+      "amount_cents": 1495000,
+      "weight_numerator": 1,
+      "weight_denominator": 1
+    },
+    {
+      "payment_id": "pay6",
+      "order_id": "o6",
+      "user_key": "u1",
+      "placement_id": "p_a",
+      "amount_cents": 500000,
+      "weight_numerator": 1,
+      "weight_denominator": 1
+    },
+    {
+      "payment_id": "pay8part1",
+      "order_id": "o8",
+      "user_key": "u7",
+      "placement_id": "p_a",
+      "amount_cents": 500000,
+      "weight_numerator": 1,
+      "weight_denominator": 1
+    },
+    {
+      "payment_id": "pay8part2",
+      "order_id": "o8",
+      "user_key": "u7",
+      "placement_id": "p_a",
+      "amount_cents": 500000,
+      "weight_numerator": 1,
+      "weight_denominator": 1
+    }
+  ],
+  "unattributed_payments": [
+    {
+      "payment_id": "pay3",
+      "order_id": "o3",
+      "user_key": "u3",
+      "occurred_at": "2026-09-04T13:00:00.000000+00:00",
+      "amount_cents": 695000,
+      "reason": "no_observed_touch_in_window"
+    },
+    {
+      "payment_id": "pay4",
+      "order_id": "o4",
+      "user_key": "u4",
+      "occurred_at": "2026-09-12T13:00:00.000000+00:00",
+      "amount_cents": 895000,
+      "reason": "no_observed_touch_in_window"
+    }
+  ]
+}

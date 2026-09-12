@@ -1,0 +1,126 @@
+﻿dataset_id,provenance,model,window_days,placement_id,channel,cost_rub,attributed_rub,romi_pct,romi_status
+demo_2026,synthetic,last_touch,1,p_a,Учебный канал А,2000.0,5000.0,150.0,calculated
+demo_2026,synthetic,last_touch,1,p_b,Учебный канал Б,3000.0,5000.0,66.66666666666667,calculated
+demo_2026,synthetic,last_touch,1,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,last_touch,1,p_unknown,Канал с неизвестной ценой размещения,,0.0,,unknown_cost
+demo_2026,synthetic,last_touch,1,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,1,p_a,Учебный канал А,2000.0,5000.0,150.0,calculated
+demo_2026,synthetic,first_touch,1,p_b,Учебный канал Б,3000.0,5000.0,66.66666666666667,calculated
+demo_2026,synthetic,first_touch,1,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,first_touch,1,p_unknown,Канал с неизвестной ценой размещения,,0.0,,unknown_cost
+demo_2026,synthetic,first_touch,1,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,linear,1,p_a,Учебный канал А,2000.0,5000.0,150.0,calculated
+demo_2026,synthetic,linear,1,p_b,Учебный канал Б,3000.0,5000.0,66.66666666666667,calculated
+demo_2026,synthetic,linear,1,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,linear,1,p_unknown,Канал с неизвестной ценой размещения,,0.0,,unknown_cost
+demo_2026,synthetic,linear,1,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,time_decay,1,p_a,Учебный канал А,2000.0,5000.0,150.0,calculated
+demo_2026,synthetic,time_decay,1,p_b,Учебный канал Б,3000.0,5000.0,66.66666666666667,calculated
+demo_2026,synthetic,time_decay,1,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,time_decay,1,p_unknown,Канал с неизвестной ценой размещения,,0.0,,unknown_cost
+demo_2026,synthetic,time_decay,1,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,position_based,1,p_a,Учебный канал А,2000.0,5000.0,150.0,calculated
+demo_2026,synthetic,position_based,1,p_b,Учебный канал Б,3000.0,5000.0,66.66666666666667,calculated
+demo_2026,synthetic,position_based,1,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,position_based,1,p_unknown,Канал с неизвестной ценой размещения,,0.0,,unknown_cost
+demo_2026,synthetic,position_based,1,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,last_touch,3,p_a,Учебный канал А,2000.0,13950.0,597.5,calculated
+demo_2026,synthetic,last_touch,3,p_b,Учебный канал Б,3000.0,14990.0,399.6666666666667,calculated
+demo_2026,synthetic,last_touch,3,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,last_touch,3,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,last_touch,3,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,3,p_a,Учебный канал А,2000.0,28940.0,1347.0,calculated
+demo_2026,synthetic,first_touch,3,p_b,Учебный канал Б,3000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,3,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,first_touch,3,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,first_touch,3,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,linear,3,p_a,Учебный канал А,2000.0,21445.0,972.25,calculated
+demo_2026,synthetic,linear,3,p_b,Учебный канал Б,3000.0,7495.0,149.83333333333334,calculated
+demo_2026,synthetic,linear,3,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,linear,3,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,linear,3,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,time_decay,3,p_a,Учебный канал А,2000.0,20582.98,929.149,calculated
+demo_2026,synthetic,time_decay,3,p_b,Учебный канал Б,3000.0,8357.02,178.56733333333332,calculated
+demo_2026,synthetic,time_decay,3,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,time_decay,3,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,time_decay,3,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,position_based,3,p_a,Учебный канал А,2000.0,21445.0,972.25,calculated
+demo_2026,synthetic,position_based,3,p_b,Учебный канал Б,3000.0,7495.0,149.83333333333334,calculated
+demo_2026,synthetic,position_based,3,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,position_based,3,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,position_based,3,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,last_touch,7,p_a,Учебный канал А,2000.0,13950.0,597.5,calculated
+demo_2026,synthetic,last_touch,7,p_b,Учебный канал Б,3000.0,14990.0,399.6666666666667,calculated
+demo_2026,synthetic,last_touch,7,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,last_touch,7,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,last_touch,7,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,7,p_a,Учебный канал А,2000.0,33940.0,1597.0,calculated
+demo_2026,synthetic,first_touch,7,p_b,Учебный канал Б,3000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,7,p_owned,Собственный учебный канал,0.0,0.0,,zero_cost
+demo_2026,synthetic,first_touch,7,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,first_touch,7,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,linear,7,p_a,Учебный канал А,2000.0,23111.67,1055.5835,calculated
+demo_2026,synthetic,linear,7,p_b,Учебный канал Б,3000.0,9161.67,205.389,calculated
+demo_2026,synthetic,linear,7,p_owned,Собственный учебный канал,0.0,1666.66,,zero_cost
+demo_2026,synthetic,linear,7,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,linear,7,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,time_decay,7,p_a,Учебный канал А,2000.0,21381.71,969.0855,calculated
+demo_2026,synthetic,time_decay,7,p_b,Учебный канал Б,3000.0,9363.36,212.112,calculated
+demo_2026,synthetic,time_decay,7,p_owned,Собственный учебный канал,0.0,3194.93,,zero_cost
+demo_2026,synthetic,time_decay,7,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,time_decay,7,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,position_based,7,p_a,Учебный канал А,2000.0,23445.0,1072.25,calculated
+demo_2026,synthetic,position_based,7,p_b,Учебный канал Б,3000.0,8495.0,183.16666666666666,calculated
+demo_2026,synthetic,position_based,7,p_owned,Собственный учебный канал,0.0,2000.0,,zero_cost
+demo_2026,synthetic,position_based,7,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,position_based,7,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,last_touch,14,p_a,Учебный канал А,2000.0,22900.0,1045.0,calculated
+demo_2026,synthetic,last_touch,14,p_b,Учебный канал Б,3000.0,14990.0,399.6666666666667,calculated
+demo_2026,synthetic,last_touch,14,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,last_touch,14,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,last_touch,14,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,14,p_a,Учебный канал А,2000.0,42890.0,2044.5,calculated
+demo_2026,synthetic,first_touch,14,p_b,Учебный канал Б,3000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,14,p_owned,Собственный учебный канал,0.0,0.0,,zero_cost
+demo_2026,synthetic,first_touch,14,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,first_touch,14,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,linear,14,p_a,Учебный канал А,2000.0,32061.67,1503.0835,calculated
+demo_2026,synthetic,linear,14,p_b,Учебный канал Б,3000.0,9161.67,205.389,calculated
+demo_2026,synthetic,linear,14,p_owned,Собственный учебный канал,0.0,1666.66,,zero_cost
+demo_2026,synthetic,linear,14,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,linear,14,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,time_decay,14,p_a,Учебный канал А,2000.0,30331.71,1416.5855,calculated
+demo_2026,synthetic,time_decay,14,p_b,Учебный канал Б,3000.0,9363.36,212.112,calculated
+demo_2026,synthetic,time_decay,14,p_owned,Собственный учебный канал,0.0,3194.93,,zero_cost
+demo_2026,synthetic,time_decay,14,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,time_decay,14,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,position_based,14,p_a,Учебный канал А,2000.0,32395.0,1519.75,calculated
+demo_2026,synthetic,position_based,14,p_b,Учебный канал Б,3000.0,8495.0,183.16666666666666,calculated
+demo_2026,synthetic,position_based,14,p_owned,Собственный учебный канал,0.0,2000.0,,zero_cost
+demo_2026,synthetic,position_based,14,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,position_based,14,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,last_touch,21,p_a,Учебный канал А,2000.0,22900.0,1045.0,calculated
+demo_2026,synthetic,last_touch,21,p_b,Учебный канал Б,3000.0,14990.0,399.6666666666667,calculated
+demo_2026,synthetic,last_touch,21,p_owned,Собственный учебный канал,0.0,5000.0,,zero_cost
+demo_2026,synthetic,last_touch,21,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,last_touch,21,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,21,p_a,Учебный канал А,2000.0,42890.0,2044.5,calculated
+demo_2026,synthetic,first_touch,21,p_b,Учебный канал Б,3000.0,0.0,-100.0,calculated
+demo_2026,synthetic,first_touch,21,p_owned,Собственный учебный канал,0.0,0.0,,zero_cost
+demo_2026,synthetic,first_touch,21,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,first_touch,21,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,linear,21,p_a,Учебный канал А,2000.0,32061.67,1503.0835,calculated
+demo_2026,synthetic,linear,21,p_b,Учебный канал Б,3000.0,9161.67,205.389,calculated
+demo_2026,synthetic,linear,21,p_owned,Собственный учебный канал,0.0,1666.66,,zero_cost
+demo_2026,synthetic,linear,21,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,linear,21,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,time_decay,21,p_a,Учебный канал А,2000.0,30331.71,1416.5855,calculated
+demo_2026,synthetic,time_decay,21,p_b,Учебный канал Б,3000.0,9363.36,212.112,calculated
+demo_2026,synthetic,time_decay,21,p_owned,Собственный учебный канал,0.0,3194.93,,zero_cost
+demo_2026,synthetic,time_decay,21,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,time_decay,21,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated
+demo_2026,synthetic,position_based,21,p_a,Учебный канал А,2000.0,32395.0,1519.75,calculated
+demo_2026,synthetic,position_based,21,p_b,Учебный канал Б,3000.0,8495.0,183.16666666666666,calculated
+demo_2026,synthetic,position_based,21,p_owned,Собственный учебный канал,0.0,2000.0,,zero_cost
+demo_2026,synthetic,position_based,21,p_unknown,Канал с неизвестной ценой размещения,,14950.0,,unknown_cost
+demo_2026,synthetic,position_based,21,p_unused,Размещение без продаж,1000.0,0.0,-100.0,calculated

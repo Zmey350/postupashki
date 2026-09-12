@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "dataset_id": "legacy_sales_2026",
+  "provenance": "real",
+  "source_sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6",
+  "period": {
+    "start": "2026-08-04",
+    "end": "2026-09-10",
+    "calendar_days": 38,
+    "dates_with_sales": 38,
+    "boundary_days_assumed_complete": true,
+    "timezone": "unspecified_local"
+  },
+  "sales": {
+    "rows": 795,
+    "buyers": 606,
+    "courses": 18,
+    "inferred_orders": 628,
+    "amount_cents": 590467167,
+    "amount_rub": 5904671.67,
+    "mean_order_rub": 9402.34342356688,
+    "median_order_rub": 8950.0,
+    "bundle_orders": 153,
+    "bundle_order_share_pct": 24.363057324840764,
+    "bundle_amount_rub": 2119033.0,
+    "bundle_sales_share_pct": 35.88739761376097,
+    "repeat_buyers": 20,
+    "repeat_buyer_share_pct": 3.3003300330033003,
+    "repeat_orders": 22,
+    "repeat_amount_rub": 187575.0,
+    "top5_day_sales_share_pct": 35.13083852806332,
+    "top4_product_sales_share_pct": 47.57827627018591
+  },
+  "quality": {
+    "missing_values": 0,
+    "exact_duplicates": 0,
+    "nonpositive_amounts": 0,
+    "duplicate_course_inside_order": 0,
+    "unobserved_calendar_days": 0
+  },
+  "attribution": {
+    "observed_individual_touches": 0,
+    "known_ad_costs": 0,
+    "coverage_pct": 0.0,
+    "unknown_source_rub": 5904671.67,
+    "historical_romi_pct": null,
+    "basis": "CSV contains no advertising-source, contact or cost fields",
+    "research_engine_status": "Реализовано частично",
+    "rules_compared": 5,
+    "windows_days": [
+      1,
+      3,
+      7,
+      14,
+      21
+    ],
+    "model_window_runs_real_and_synthetic": 50,
+    "all_real_models_zero_coverage": true,
+    "history_registry_publications": 37
+  },
+  "knowledge": {
+    "what_we_know": "Наблюдаем строки продаж, суммы, курсы и время в предоставленной выгрузке.",
+    "what_we_estimate": "Восстанавливаем заказы и пакеты по совпадению покупателя и секунды; прогнозируем будущие продажи.",
+    "what_we_cannot_know_yet": "Источники покупок, конверсия всей аудитории, истинный ROMI и причинный эффект рекламы."
+  },
+  "forecast": {
+    "status": "Реализовано и проверено",
+    "scope": "Ретроспективный расчёт на реальных продажах; качество будущего прогноза не подтверждено",
+    "models_compared": 6,
+    "selected_model": "weekday_shrunk",
+    "development_windows": 11,
+    "development_unique_target_dates": 17,
+    "overlapping_windows": true,
+    "holdout_used_for_model_selection": false,
+    "holdout_start": "2026-09-04",
+    "holdout_end": "2026-09-10",
+    "development_weekly_mae_rub": 210508.06368695048,
+    "baseline_development_weekly_mae_rub": 420206.9090909091,
+    "holdout_weekly_wape_pct": 38.153660102309935,
+    "baseline_holdout_weekly_wape_pct": 26.95985412234402,
+    "forecast_start": "2026-09-11",
+    "forecast_end": "2026-09-17",
+    "revenue_point_rub": 1102254.5050263158,
+    "revenue_empirical_lower_rub": 281499.3176406836,
+    "revenue_empirical_upper_rub": 1923009.692411948,
+    "orders_point": 117.45877192982456,
+    "range_is_calibrated": false,
+    "holdout_range_covers_week": false
+  },
+  "marketing_history": {
+    "status": "Реализовано частично",
+    "scope": "Импорт и сверка реального HTML проверены; история неполна, медиа не прочитаны",
+    "source_messages": 1220,
+    "selected_window_start": "2026-07-28",
+    "selected_window_end": "2026-09-11",
+    "selected_messages": 73,
+    "text_messages": 55,
+    "media_only_messages": 18,
+    "messages_during_sales_period": 62,
+    "direct_course_promotion_messages": 23,
+    "missing_known_posts": [
+      1835
+    ],
+    "periods": [
+      {
+        "start": "2026-08-08",
+        "end": "2026-08-10",
+        "orders": 132,
+        "buyers": 131,
+        "sales_rub": 1004696.67,
+        "orders_with_pro_or_ai": 10,
+        "pro_or_ai_line_sales_rub": 64815.0,
+        "evidence_status": "sale_extended_through_aug10",
+        "source_url": "https://t.me/postypashki_old/1838"
+      },
+      {
+        "start": "2026-08-22",
+        "end": "2026-08-23",
+        "orders": 65,
+        "buyers": 65,
+        "sales_rub": 645645.0,
+        "orders_with_pro_or_ai": 51,
+        "pro_or_ai_line_sales_rub": 480125.0,
+        "evidence_status": "dated_pro_announcement_same_calendar_period",
+        "source_url": "https://t.me/postypashki_old/1859"
+      },
+      {
+        "start": "2026-09-05",
+        "end": "2026-09-06",
+        "orders": 94,
+        "buyers": 93,
+        "sales_rub": 880759.0,
+        "orders_with_pro_or_ai": 77,
+        "pro_or_ai_line_sales_rub": 672159.0,
+        "evidence_status": "tbank_deadline_and_course_promotion_context",
+        "source_url": "https://t.me/postypashki_old/1880"
+      }
+    ],
+    "promo_price_and_product_matching_orders": 52,
+    "promo_price_and_product_matching_sales_rub": 372480.0,
+    "matching_is_attribution": false,
+    "causal_effect_identified": false
+  }
+}

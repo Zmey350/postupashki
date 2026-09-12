@@ -1,0 +1,381 @@
+{
+  "dataset": {
+    "id": "history_publications_2026",
+    "label": "Публичные посты: даты известны, касаний и оплат нет",
+    "provenance": "real",
+    "clock": "UTC",
+    "sales_policy": "recorded_payments"
+  },
+  "records": [
+    {
+      "type": "placement",
+      "id": "tg_1823",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1823",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-07-29T16:05:26+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1824",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1824",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-07-30T16:05:25+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1827",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1827",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-02T08:51:49+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1833",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1833",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-07T14:22:16+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1836",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1836",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-09T10:32:11+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1837",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1837",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-09T15:35:40+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1838",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1838",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-10T13:26:59+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1840",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1840",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-10T17:33:06+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1843",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1843",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-11T15:50:13+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1844",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1844",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-12T16:05:42+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1848",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1848",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-14T16:52:44+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1852",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1852",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-16T16:39:39+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1854",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1854",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-17T16:05:47+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1856",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1856",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-19T15:58:14+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1857",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1857",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-20T16:11:50+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1859",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1859",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-22T10:19:48+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1860",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1860",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-23T08:51:41+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1863",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1863",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-23T16:20:03+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1870",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1870",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-28T16:05:59+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1872",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1872",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-29T18:58:58+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1874",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1874",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-30T13:26:37+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1875",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1875",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-08-31T14:11:02+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1876",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1876",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-01T17:40:56+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1877",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1877",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-02T16:06:05+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1878",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1878",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-03T16:06:06+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1880",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1880",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-06T09:06:06+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1881",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1881",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-06T12:06:08+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1882",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1882",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-06T15:04:47+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1885",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1885",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-06T17:44:11+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1887",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1887",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-07T10:47:40+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1892",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1892",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-07T14:05:21+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1893",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1893",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-07T15:51:46+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1895",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1895",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-08T15:27:01+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1897",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1897",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-09T14:17:20+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1898",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1898",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-10T08:59:39+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1899",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1899",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-10T14:06:13+00:00",
+      "cost": null
+    },
+    {
+      "type": "placement",
+      "id": "tg_1900",
+      "campaign_id": "owned_history",
+      "creative_id": "post_1900",
+      "channel": "@postypashki_old",
+      "kind": "owned",
+      "publication_time": "2026-09-11T13:37:42+00:00",
+      "cost": null
+    }
+  ]
+}

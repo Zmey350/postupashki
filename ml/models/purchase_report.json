@@ -1,0 +1,1201 @@
+{
+  "metadata": {
+    "provenance": "synthetic",
+    "horizon_days": 14,
+    "trained_through": "2026-02-24T00:00:00.000000Z",
+    "versions": {
+      "python": "3.12.14",
+      "sklearn": "1.8.0",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3"
+    },
+    "available_at": "2026-04-19T00:00:00.000000Z",
+    "evaluated_through": "2026-07-09T00:00:00.000000Z",
+    "winner": {
+      "trial": 1,
+      "model": "linear",
+      "parameters": {
+        "regularization": 0.1
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        0.36608130117291027,
+        0.5099386774935009
+      ],
+      "score": 0.43800998933320556,
+      "error": null
+    },
+    "skipped_models": [
+      "catboost не установлен; установите extra [boosting]",
+      "lightgbm не установлен; установите extra [boosting]"
+    ],
+    "split": {
+      "tuning_boundaries": [
+        "2025-09-28T00:00:00.000000Z",
+        "2025-12-18T00:00:00.000000Z",
+        "2026-03-09T00:00:00.000000Z"
+      ],
+      "calibration_start": "2026-03-09T00:00:00.000000Z",
+      "test_start": "2026-05-02T00:00:00.000000Z"
+    },
+    "rows": {
+      "fit": 780,
+      "calibration": 120,
+      "test": 180
+    },
+    "calibration": "sigmoid fitted on separate chronological calibration period",
+    "numeric_ranges": {
+      "days_since_first_seen": [
+        12.077434399571759,
+        34.886532356261576
+      ],
+      "is_main_channel_member": [
+        1.0,
+        1.0
+      ],
+      "days_since_last_activity": [
+        0.5002609159259259,
+        9.990775918425927
+      ],
+      "active_days_30d": [
+        0.0,
+        7.0
+      ],
+      "orders_count_90d": [
+        0.0,
+        0.0
+      ],
+      "net_spend_90d_minor": [
+        0.0,
+        0.0
+      ],
+      "mean_order_value_90d_minor": [
+        null,
+        null
+      ],
+      "days_since_last_purchase": [
+        null,
+        null
+      ],
+      "mean_purchase_gap_days": [
+        null,
+        null
+      ],
+      "paid_courses_count": [
+        0.0,
+        0.0
+      ],
+      "hackathons_attended_180d": [
+        0.0,
+        0.0
+      ],
+      "course_intent_actions_30d": [
+        0.0,
+        5.0
+      ],
+      "offers_sent_30d": [
+        0.0,
+        0.0
+      ],
+      "active_offer_discount_pct": [
+        null,
+        null
+      ],
+      "calendar_month": [
+        1.0,
+        12.0
+      ],
+      "days_to_next_relevant_course_start": [
+        334.0,
+        658.0
+      ],
+      "course_regular_price": [
+        20000.0,
+        20000.0
+      ],
+      "course_days_to_start": [
+        334.0,
+        658.0
+      ],
+      "course_days_to_sales_close": [
+        324.0,
+        648.0
+      ],
+      "topic_match": [
+        0.0,
+        1.0
+      ],
+      "weekday": [
+        0.0,
+        6.0
+      ],
+      "month_sin": [
+        -1.0,
+        1.0
+      ],
+      "month_cos": [
+        -1.0,
+        1.0
+      ],
+      "offered_price_now": [
+        16000.0,
+        20000.0
+      ],
+      "offered_price_mean": [
+        16000.0,
+        20000.0
+      ],
+      "discount_mean": [
+        0.0,
+        0.19999999999999996
+      ],
+      "discount_days_fraction": [
+        0.0,
+        1.0
+      ],
+      "discount_at_end": [
+        0.0,
+        0.19999999999999996
+      ],
+      "offer_warm_now": [
+        0.0,
+        0.0
+      ],
+      "offer_warm_mean": [
+        0.0,
+        0.0
+      ],
+      "offer_warm_end": [
+        0.0,
+        0.0
+      ],
+      "offer_contacts_7d": [
+        0.0,
+        0.0
+      ],
+      "offer_planned_contacts": [
+        0.0,
+        0.0
+      ],
+      "offer_pressure": [
+        0.0,
+        0.0
+      ],
+      "offer_history_complete": [
+        1.0,
+        1.0
+      ],
+      "message_warm_now": [
+        0.0,
+        0.6298938993435815
+      ],
+      "message_warm_mean": [
+        0.0,
+        0.4012968902110407
+      ],
+      "message_warm_end": [
+        0.0,
+        0.22801066953550636
+      ],
+      "message_contacts_7d": [
+        0.0,
+        7.0
+      ],
+      "message_planned_contacts": [
+        0.0,
+        2.0
+      ],
+      "message_pressure": [
+        0.0,
+        8.0
+      ],
+      "message_history_complete": [
+        1.0,
+        1.0
+      ],
+      "event_warm_now": [
+        0.0,
+        0.0
+      ],
+      "event_warm_mean": [
+        0.0,
+        0.12084228783770125
+      ],
+      "event_warm_end": [
+        0.0,
+        0.05882352941176472
+      ],
+      "event_contacts_7d": [
+        0.0,
+        0.0
+      ],
+      "event_planned_contacts": [
+        0.0,
+        1.0
+      ],
+      "event_pressure": [
+        0.0,
+        1.0
+      ],
+      "event_history_complete": [
+        1.0,
+        1.0
+      ],
+      "ad_warm_now": [
+        0.0,
+        0.0
+      ],
+      "ad_warm_mean": [
+        0.0,
+        0.0
+      ],
+      "ad_warm_end": [
+        0.0,
+        0.0
+      ],
+      "ad_contacts_7d": [
+        0.0,
+        0.0
+      ],
+      "ad_planned_contacts": [
+        0.0,
+        0.0
+      ],
+      "ad_pressure": [
+        0.0,
+        0.0
+      ],
+      "ad_history_complete": [
+        1.0,
+        1.0
+      ]
+    },
+    "categories": {
+      "first_source_channel_id": [
+        "unknown"
+      ],
+      "education_stage": [
+        "graduate",
+        "school",
+        "university"
+      ],
+      "job_search_status": [
+        "exploring",
+        "internship",
+        "not_searching"
+      ],
+      "primary_topic_id": [
+        "ml",
+        "unknown"
+      ],
+      "course_topic": [
+        "ml"
+      ]
+    },
+    "seed": 42,
+    "interval_note": "Empirical out-of-time absolute-error band; no coverage guarantee under drift",
+    "interpretation": "synthetic_demo",
+    "trained_plans": [
+      "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}",
+      "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}",
+      "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}",
+      "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+    ],
+    "experiments": [
+      {
+        "experiment": "wave-0",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 21,
+            "buyers": 1,
+            "rate": 0.047619047619047616,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 12,
+            "buyers": 2,
+            "rate": 0.16666666666666666,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 12,
+            "buyers": 4,
+            "rate": 0.3333333333333333,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 15,
+            "buyers": 4,
+            "rate": 0.26666666666666666,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-1",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 15,
+            "buyers": 0,
+            "rate": 0.0,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 10,
+            "buyers": 1,
+            "rate": 0.1,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 16,
+            "buyers": 5,
+            "rate": 0.3125,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 19,
+            "buyers": 9,
+            "rate": 0.47368421052631576,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-10",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 16,
+            "buyers": 7,
+            "rate": 0.4375,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 13,
+            "buyers": 0,
+            "rate": 0.0,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 16,
+            "buyers": 5,
+            "rate": 0.3125,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 15,
+            "buyers": 4,
+            "rate": 0.26666666666666666,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-11",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 12,
+            "buyers": 1,
+            "rate": 0.08333333333333333,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 16,
+            "buyers": 4,
+            "rate": 0.25,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 20,
+            "buyers": 3,
+            "rate": 0.15,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 12,
+            "buyers": 4,
+            "rate": 0.3333333333333333,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-12",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 14,
+            "buyers": 0,
+            "rate": 0.0,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 10,
+            "buyers": 1,
+            "rate": 0.1,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 10,
+            "buyers": 1,
+            "rate": 0.1,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 26,
+            "buyers": 9,
+            "rate": 0.34615384615384615,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-13",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 11,
+            "buyers": 2,
+            "rate": 0.18181818181818182,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 14,
+            "buyers": 5,
+            "rate": 0.35714285714285715,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 14,
+            "buyers": 3,
+            "rate": 0.21428571428571427,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 21,
+            "buyers": 6,
+            "rate": 0.2857142857142857,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-14",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 12,
+            "buyers": 1,
+            "rate": 0.08333333333333333,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 20,
+            "buyers": 1,
+            "rate": 0.05,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 14,
+            "buyers": 4,
+            "rate": 0.2857142857142857,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 14,
+            "buyers": 1,
+            "rate": 0.07142857142857142,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-15",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 15,
+            "buyers": 2,
+            "rate": 0.13333333333333333,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 12,
+            "buyers": 0,
+            "rate": 0.0,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 11,
+            "buyers": 1,
+            "rate": 0.09090909090909091,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 22,
+            "buyers": 4,
+            "rate": 0.18181818181818182,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-16",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 18,
+            "buyers": 4,
+            "rate": 0.2222222222222222,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 13,
+            "buyers": 2,
+            "rate": 0.15384615384615385,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 14,
+            "buyers": 4,
+            "rate": 0.2857142857142857,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 15,
+            "buyers": 6,
+            "rate": 0.4,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-17",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 14,
+            "buyers": 2,
+            "rate": 0.14285714285714285,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 12,
+            "buyers": 1,
+            "rate": 0.08333333333333333,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 17,
+            "buyers": 5,
+            "rate": 0.29411764705882354,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 17,
+            "buyers": 5,
+            "rate": 0.29411764705882354,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-2",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 13,
+            "buyers": 1,
+            "rate": 0.07692307692307693,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 15,
+            "buyers": 2,
+            "rate": 0.13333333333333333,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 11,
+            "buyers": 6,
+            "rate": 0.5454545454545454,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 21,
+            "buyers": 4,
+            "rate": 0.19047619047619047,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-3",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 18,
+            "buyers": 4,
+            "rate": 0.2222222222222222,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 16,
+            "buyers": 1,
+            "rate": 0.0625,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 12,
+            "buyers": 3,
+            "rate": 0.25,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 14,
+            "buyers": 7,
+            "rate": 0.5,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-4",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 13,
+            "buyers": 1,
+            "rate": 0.07692307692307693,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 12,
+            "buyers": 2,
+            "rate": 0.16666666666666666,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 16,
+            "buyers": 5,
+            "rate": 0.3125,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 19,
+            "buyers": 2,
+            "rate": 0.10526315789473684,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-5",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 14,
+            "buyers": 0,
+            "rate": 0.0,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 15,
+            "buyers": 1,
+            "rate": 0.06666666666666667,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 17,
+            "buyers": 3,
+            "rate": 0.17647058823529413,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 14,
+            "buyers": 5,
+            "rate": 0.35714285714285715,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-6",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 12,
+            "buyers": 0,
+            "rate": 0.0,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 21,
+            "buyers": 3,
+            "rate": 0.14285714285714285,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 16,
+            "buyers": 4,
+            "rate": 0.25,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 11,
+            "buyers": 5,
+            "rate": 0.45454545454545453,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-7",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 20,
+            "buyers": 1,
+            "rate": 0.05,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 12,
+            "buyers": 2,
+            "rate": 0.16666666666666666,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 9,
+            "buyers": 2,
+            "rate": 0.2222222222222222,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 19,
+            "buyers": 5,
+            "rate": 0.2631578947368421,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-8",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 11,
+            "buyers": 0,
+            "rate": 0.0,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 16,
+            "buyers": 1,
+            "rate": 0.0625,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 14,
+            "buyers": 3,
+            "rate": 0.21428571428571427,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 19,
+            "buyers": 7,
+            "rate": 0.3684210526315789,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      },
+      {
+        "experiment": "wave-9",
+        "arms": [
+          {
+            "arm": "0",
+            "n": 19,
+            "buyers": 0,
+            "rate": 0.0,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "1",
+            "n": 14,
+            "buyers": 1,
+            "rate": 0.07142857142857142,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":5,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":0,\"discount_pct\":0}"
+            ]
+          },
+          {
+            "arm": "2",
+            "n": 12,
+            "buyers": 2,
+            "rate": 0.16666666666666666,
+            "plans": [
+              "{\"contacts\":[],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          },
+          {
+            "arm": "3",
+            "n": 15,
+            "buyers": 5,
+            "rate": 0.3333333333333333,
+            "plans": [
+              "{\"contacts\":[{\"day\":0,\"intensity\":1,\"kind\":\"message\"},{\"day\":4,\"intensity\":1,\"kind\":\"event\"},{\"day\":9,\"intensity\":1,\"kind\":\"message\"}],\"discount_days\":14,\"discount_pct\":20}"
+            ]
+          }
+        ],
+        "note": "Назначение должно быть реально случайным. Это описательный ITT; перенос эффекта на другие аудитории требует проверки."
+      }
+    ],
+    "test_metrics": {
+      "logloss": 0.46834593268802915,
+      "brier": 0.1492290359460565,
+      "average_precision": 0.4446551841103108,
+      "roc_auc": 0.6957947530864197,
+      "precision_top10": 0.5,
+      "base_rate": 0.2,
+      "predicted_buyers": 33.1540163001481,
+      "actual_buyers": 36
+    },
+    "test_baseline_metrics": {
+      "logloss": 0.5004491028988138,
+      "brier": 0.1600147928994083,
+      "average_precision": 0.2,
+      "roc_auc": 0.5,
+      "precision_top10": 0.1111111111111111,
+      "base_rate": 0.2,
+      "predicted_buyers": 35.3076923076923,
+      "actual_buyers": 36
+    },
+    "beats_test_baseline": true,
+    "quality_status": "better_than_baseline_on_test"
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "model": "baseline",
+      "parameters": {},
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        0.4470847293673906,
+        0.5248899026752856
+      ],
+      "score": 0.48598731602133804,
+      "error": null
+    },
+    {
+      "trial": 1,
+      "model": "linear",
+      "parameters": {
+        "regularization": 0.1
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        0.36608130117291027,
+        0.5099386774935009
+      ],
+      "score": 0.43800998933320556,
+      "error": null
+    },
+    {
+      "trial": 2,
+      "model": "hist",
+      "parameters": {
+        "depth": 3,
+        "l2": 5
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        0.3992567962570802,
+        0.5382223953992484
+      ],
+      "score": 0.4687395958281643,
+      "error": null
+    },
+    {
+      "trial": 3,
+      "model": "extra",
+      "parameters": {
+        "leaf": 15,
+        "features": 0.8
+      },
+      "decay": "exponential:h3:s2:ec2:p1",
+      "fold_scores": [
+        0.3845325535772547,
+        0.5249882031502192
+      ],
+      "score": 0.45476037836373695,
+      "error": null
+    },
+    {
+      "trial": 4,
+      "model": "linear",
+      "parameters": {
+        "regularization": 0.1
+      },
+      "decay": "weibull_survival:h7:s0.7:ec3:p1",
+      "fold_scores": [
+        0.36794436145520404,
+        0.5110313220796081
+      ],
+      "score": 0.4394878417674061,
+      "error": null
+    },
+    {
+      "trial": 5,
+      "model": "linear",
+      "parameters": {
+        "regularization": 0.1
+      },
+      "decay": "exponential:h10:s2:ec4:p1",
+      "fold_scores": [
+        0.3680370208959115,
+        0.5108857520823388
+      ],
+      "score": 0.43946138648912514,
+      "error": null
+    },
+    {
+      "trial": 6,
+      "model": "hist",
+      "parameters": {
+        "depth": 3,
+        "l2": 5
+      },
+      "decay": "weibull_delayed:h5:s2:ec3:p1",
+      "fold_scores": [
+        0.3973258511548853,
+        0.5311278456564185
+      ],
+      "score": 0.46422684840565187,
+      "error": null
+    },
+    {
+      "trial": 7,
+      "model": "extra",
+      "parameters": {
+        "leaf": 15,
+        "features": 0.8
+      },
+      "decay": "exponential:h10:s2:ec4:p1",
+      "fold_scores": [
+        0.39469917091814105,
+        0.5159538910534854
+      ],
+      "score": 0.4553265309858132,
+      "error": null
+    }
+  ]
+}

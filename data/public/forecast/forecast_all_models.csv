@@ -1,0 +1,13 @@
+﻿metric,model,label,weekly_forecast
+revenue_rub,mean7,Среднее за 7 дней,1592019.0
+revenue_rub,mean14,Среднее за 14 дней,1377416.0
+revenue_rub,mean_all,Среднее всей истории,1087702.6760526316
+revenue_rub,seasonal7,Повтор прошлой недели,1592019.0
+revenue_rub,weekday_shrunk,День недели со сглаживанием,1102254.5050263158
+revenue_rub,ewma03,Экспоненциальное сглаживание,1041567.2315307112
+orders,mean7,Среднее за 7 дней,160.0
+orders,mean14,Среднее за 14 дней,138.0
+orders,mean_all,Среднее всей истории,115.6842105263158
+orders,seasonal7,Повтор прошлой недели,160
+orders,weekday_shrunk,День недели со сглаживанием,117.45877192982456
+orders,ewma03,Экспоненциальное сглаживание,101.28333989573524

@@ -1,0 +1,6 @@
+﻿evidence,n_total,n_per_arm,p_control,mde_pp,expected_control_buyers,small_expected_count_warning
+hypothetical_scenario,500,250,0.02,5.250633633930632,5.0,True
+hypothetical_scenario,1000,500,0.02,3.3241830569045603,10.0,False
+hypothetical_scenario,2000,1000,0.02,2.1641446177110497,20.0,False
+hypothetical_scenario,5000,2500,0.02,1.2687896978164008,50.0,False
+hypothetical_scenario,10000,5000,0.02,0.8629212277311428,100.0,False

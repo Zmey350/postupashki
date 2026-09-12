@@ -1,0 +1,1824 @@
+[
+  {
+    "archive": "02_sales_analysis.zip",
+    "sha256": "134dad34135dde328b33fa2af38aa5f551984d6ad8162ff018804627634ab8e0",
+    "entries": [
+      {
+        "path": "sales_analysis/01_definitions_and_mvp.md",
+        "sha256": "35b7c5c2ef2bfea5d554950cc23c9be4b91445878d01f3a870697d2c1755b7cf"
+      },
+      {
+        "path": "sales_analysis/README.md",
+        "sha256": "c2cbd1ee70b98b757db145fd679bbcd3ec43b8004e778e3c7947a954620558b5"
+      },
+      {
+        "path": "sales_analysis/analyze_sales.py",
+        "sha256": "2be65d7210e7e06355b6bc50b5a0a55aab14ba869bbfcec900ab97efa777d557"
+      },
+      {
+        "path": "sales_analysis/build_report.py",
+        "sha256": "84452ccdef31e547bef02d08f3666d94ff44327a7e006834909f14ccab0749cd"
+      },
+      {
+        "path": "sales_analysis/data/sales_source.csv",
+        "sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6"
+      },
+      {
+        "path": "sales_analysis/requirements.txt",
+        "sha256": "ddbfa7be46d2fc294bda1372d31ece0d6e64df1b55b5077580c82bf3d31bb39b"
+      },
+      {
+        "path": "sales_analysis/results/02_sales_analysis.pdf",
+        "sha256": "8ca817bd9a2b904dded9401d506137ece51c2c2002b0215790ed0e2cd133a0be"
+      },
+      {
+        "path": "sales_analysis/results/charts/01_daily.png",
+        "sha256": "5cfa0af7fc3f254afa836cc3ef8ea18f72e9a38d7066a962e613e6d67d2fe995"
+      },
+      {
+        "path": "sales_analysis/results/charts/02_products.png",
+        "sha256": "ccfe0aa65ed6c8a68e1689d3e7f71ebf76bb4da17e7923d1d6d32a0bc64a9593"
+      },
+      {
+        "path": "sales_analysis/results/charts/03_bundles.png",
+        "sha256": "b036ba1ec8c626933e4883eb8b33525fe1edf25745d4850c4ddbebfefc2e03e0"
+      },
+      {
+        "path": "sales_analysis/results/charts/04_prices_and_mix.png",
+        "sha256": "6ff0d8d8477dc1c9792b6138e1f1f45b851b4f34a24415ab8c44a180d1796c77"
+      },
+      {
+        "path": "sales_analysis/results/charts/05_repeat.png",
+        "sha256": "187a197222e2de77a1beef8bd4b5e12bc8af46f1706e676381b8c5fac01962b0"
+      },
+      {
+        "path": "sales_analysis/results/summary.json",
+        "sha256": "69e9542022c7165e25dd418eda79595c73af8e95ae0d283ae268cc5b1dacf747"
+      },
+      {
+        "path": "sales_analysis/results/tables/amounts_for_review.csv",
+        "sha256": "17170470b8a820fd4fc177fa3d256f2eb9009354648ca1fa4672937abbca4548"
+      },
+      {
+        "path": "sales_analysis/results/tables/bundle_patterns.csv",
+        "sha256": "c555a9f0a20df498b8ead9a4788ae655c7610d0dc30d37377d466dc263aa6bbe"
+      },
+      {
+        "path": "sales_analysis/results/tables/daily.csv",
+        "sha256": "feb3a395a5941773aa035589acb9f712c82c96f6eedab4396fe496706f8c9972"
+      },
+      {
+        "path": "sales_analysis/results/tables/fixed_pair_prices.csv",
+        "sha256": "5e309cd319cd003e6fab6c36d0e13ed89ac2814817a0f318c242dbf3ce1061b2"
+      },
+      {
+        "path": "sales_analysis/results/tables/followup.csv",
+        "sha256": "60c40d4d5a3d29915b79c379f98a3860c385309743a1262ce021d16a385d8f39"
+      },
+      {
+        "path": "sales_analysis/results/tables/followup_same_cohort.csv",
+        "sha256": "c26368b83f4adc27756a2aeb3580eeaec2f69a7ab34d84f86393edbc93889098"
+      },
+      {
+        "path": "sales_analysis/results/tables/grouping_sensitivity.csv",
+        "sha256": "1a6686c5392431e508f7957aa4dd36390dcc5e2c2bc75f1417413932b306a5a7"
+      },
+      {
+        "path": "sales_analysis/results/tables/order_types.csv",
+        "sha256": "1915a66ec61ff2f344450a0c35cfbac788a23956a7a7c943470f785a6c3273e6"
+      },
+      {
+        "path": "sales_analysis/results/tables/orders.csv",
+        "sha256": "026ef3e0a6bfc4ff7fa4c176402b462dc314527ead325721fa8bc7eda7e88c03"
+      },
+      {
+        "path": "sales_analysis/results/tables/periods.csv",
+        "sha256": "7927fe645615d4f23ec613b65b3f03fce23ed3473f326e9703c994004ac888f5"
+      },
+      {
+        "path": "sales_analysis/results/tables/price_comparison.csv",
+        "sha256": "ceaee19807e83a58bbf5c6398cd3bd6faf4b3fb10cf8e4b4626a4a6901fcbbb0"
+      },
+      {
+        "path": "sales_analysis/results/tables/product_pairs.csv",
+        "sha256": "cf88fd3bb8a69003e5870d165606ef65dd702ca08f6cc98fcab3b2f1c97a4970"
+      },
+      {
+        "path": "sales_analysis/results/tables/products.csv",
+        "sha256": "c7de066d44dc066eaac3bcf940fdd7ddd104c9b01c239f188eb0a4b8a97dbde3"
+      },
+      {
+        "path": "sales_analysis/results/tables/repeat_buyers.csv",
+        "sha256": "b64332dfc7eb10e9c876c80ecfedf7186a78e5125512b9cd2b4c386a0b329376"
+      },
+      {
+        "path": "sales_analysis/results/tables/repeat_course_cases.csv",
+        "sha256": "54d0c7d9c1433599260635b1f24a89e678d5de8560178d639d37cdab46083b39"
+      },
+      {
+        "path": "sales_analysis/results/tables/repeat_course_source_rows.csv",
+        "sha256": "b78ed893fac9aaaf78108774109860abe06f97bdcf88a6b55c6ca393ee013507"
+      },
+      {
+        "path": "sales_analysis/results/tables/weekdays.csv",
+        "sha256": "11d6ced8e4a98f7103eb056f6bb02c9511c3ea58db691b5a02ec33df0ac8e2ff"
+      }
+    ]
+  },
+  {
+    "archive": "03_postupashki_mvp.zip",
+    "sha256": "c27164fda776c14437b217887b5d4881d1da2896ede5067b3f1dcd55e5aa27cd",
+    "entries": [
+      {
+        "path": "postupashki_mvp/.gitignore",
+        "sha256": "ce150f43ce34a9738e9c1656c9bca308cc32cd4590f16d27ce42d05e9e4bd6c4"
+      },
+      {
+        "path": "postupashki_mvp/01_definitions_and_mvp.md",
+        "sha256": "35b7c5c2ef2bfea5d554950cc23c9be4b91445878d01f3a870697d2c1755b7cf"
+      },
+      {
+        "path": "postupashki_mvp/README.md",
+        "sha256": "b28da8e95cce298f7ef2249e0acb91f776c198d708734d434883a4ab1a31ae68"
+      },
+      {
+        "path": "postupashki_mvp/SCHEMA.md",
+        "sha256": "fac359d7d84c510e4d734e189d9f2f2a9c87b99b00c9d27153f826486277e1a3"
+      },
+      {
+        "path": "postupashki_mvp/data/add_sale.example.json",
+        "sha256": "6065f5e589eafc41edcea58384bd07ca6645b77200f1b86eec61cd7543c865f4"
+      },
+      {
+        "path": "postupashki_mvp/data/demo.json",
+        "sha256": "7bf291bc4438fc09b455c44a93319ffc8c0e8a672e87da0634766fb6147838b1"
+      },
+      {
+        "path": "postupashki_mvp/data/sales_source.csv",
+        "sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/after_new_sale.csv",
+        "sha256": "bb26c18556a8dc2b30355d2a3ae614ec2bc9beddc3a921c98dc434d76c354aea"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/after_new_sale.json",
+        "sha256": "f42929c6347cc5ea3c421b3be16d3780c59657e37527341c30091dc5b09da094"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/first_touch.csv",
+        "sha256": "797982376653829e2fd32e6bf06464c7d5e476e8535ebf38df7888e58133d35b"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/first_touch.json",
+        "sha256": "cdfc17f20ca6f6439455a4850ad3783ce41f4f10528b33d6b6f4d9b9f559b1da"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/last_touch.csv",
+        "sha256": "27f91bbdfeed90a7bb02bfa0034b765b48ef97973497d09fd278374d3a74a6bf"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/last_touch.json",
+        "sha256": "29baab4d1498f762a294091cdcb2557fa78b5a65b0d0746ded1a718bca1f184a"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/linear.csv",
+        "sha256": "4fce3c771ed3ccd3a686394acd3b1f79a60ba01f9f48688fe54c9199a38af7fc"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/linear.json",
+        "sha256": "10e5fb76dabf9b314d3ef084dc7c1d00159853d713afa1af35e8f70b4a1e5229"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/real_sales.csv",
+        "sha256": "eb03eb1e0dbde9b985a5eb3296e353a52abda105974059fedf2cae8a3bc269bc"
+      },
+      {
+        "path": "postupashki_mvp/examples/results/real_sales.json",
+        "sha256": "ed420ec5e9417bb2843046549c74b6e90a51dda3e109be13e1c96bc98e38db61"
+      },
+      {
+        "path": "postupashki_mvp/mvp.py",
+        "sha256": "494df5692a6b8d7d1a42805413266a80f971184c3886274beb78195936daf6bc"
+      },
+      {
+        "path": "postupashki_mvp/schema.sql",
+        "sha256": "43a30cb5a545e1b5b3080a2800017f79145bf8b236fcd70902e7a33dfa40cfbc"
+      },
+      {
+        "path": "postupashki_mvp/tests/test_mvp.py",
+        "sha256": "57387a32ba7d53f6fad24302e85b4705aaaca76849973d8b7da549316f7e1daf"
+      }
+    ]
+  },
+  {
+    "archive": "04_marketing_history.zip",
+    "sha256": "e8601bf86d93ad1ea9187257f1051fcb3f503636c6cdcb3cc0723a6288425a53",
+    "entries": [
+      {
+        "path": "marketing_history/README.md",
+        "sha256": "b4df7606bae7693ac003d9b1a9451764066a4b945fcb77b7739ea68c643720fa"
+      },
+      {
+        "path": "marketing_history/SOURCES.md",
+        "sha256": "efe67a22b90262318b66a60bef005be34c91d76195b5b04662bca4109e071673"
+      },
+      {
+        "path": "marketing_history/analyze_history.py",
+        "sha256": "39d8bbd1c87583470f4ad3b2548373972309d43230e5dfc791b0ddb725543dac"
+      },
+      {
+        "path": "marketing_history/build_journal.py",
+        "sha256": "56dc41c9db3179bcb0d5f58a6163509034fc8eb84f0275e7d69f8230cf4332dc"
+      },
+      {
+        "path": "marketing_history/build_report.py",
+        "sha256": "6911e03b40d16c1d4c6e8864e07eee122e9e8de16e3c1bfee500aa3b2d820b28"
+      },
+      {
+        "path": "marketing_history/data/demo_export.json",
+        "sha256": "958eaa2ccdf3ea84c95f46af3c1716984f7fd948239300d8a314f6efc3b59a16"
+      },
+      {
+        "path": "marketing_history/data/export/messages.html",
+        "sha256": "7f6c4a2753d98ff64b1831f2e3a1d4425dcde2f283725a930947dac46266aece"
+      },
+      {
+        "path": "marketing_history/data/export/messages2.html",
+        "sha256": "a2289e7187b6cd561e1ea336fec3cfa3d8d84e3a46cd92cadb04116253e40116"
+      },
+      {
+        "path": "marketing_history/data/external_candidates.json",
+        "sha256": "f6aeb682d2ea09a1f1e9ca6353103d7a579aff9260310effefb2f26dfa39fd1b"
+      },
+      {
+        "path": "marketing_history/data/observations.json",
+        "sha256": "465540f8954d2a0c96b82215f20f95083be27bbab81d7c6161528bd2948dbf6f"
+      },
+      {
+        "path": "marketing_history/data/post_reviews.json",
+        "sha256": "63dd17057d4f5483cfb87d83c50635e81db1a89e0f2d296d0101b09cf916dd67"
+      },
+      {
+        "path": "marketing_history/data/public_observations_before_export.json",
+        "sha256": "018a763ef0696eac6f18cfbd74c7f57ee3cc3979eb10ddb526643221eef06074"
+      },
+      {
+        "path": "marketing_history/data/sales_source.csv",
+        "sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6"
+      },
+      {
+        "path": "marketing_history/import_html.py",
+        "sha256": "8ef67a5ad8be9e0a1de5e46b0b72bda535834471eceb643e18dad46e247d6ff9"
+      },
+      {
+        "path": "marketing_history/normalize_export.py",
+        "sha256": "c33f3cf7cf884961719eade1a717cb33f6dfa7b4b4b00ab49f9ce0dbb9245569"
+      },
+      {
+        "path": "marketing_history/requirements-report.txt",
+        "sha256": "3e6d48c914feba530725d87259e5d08fc5036dc8acb41e9b9d2248a5dd29d8ae"
+      },
+      {
+        "path": "marketing_history/results/04_marketing_history.pdf",
+        "sha256": "a12f90bcb0436ac207ca2df91723955781a3db59b1510d367c5d4985cb4af410"
+      },
+      {
+        "path": "marketing_history/results/campaigns.csv",
+        "sha256": "9b0efacc497d0a96f3c20ff11543d4ea5ff7e679b5baa42dab25b6c49189afb7"
+      },
+      {
+        "path": "marketing_history/results/daily_calendar.csv",
+        "sha256": "9c3f4f403b5a10aeb1d20f4cf14414cee3a07e71e25e4f7f3b7784111f0cdcec"
+      },
+      {
+        "path": "marketing_history/results/demo_import.csv",
+        "sha256": "005eac0a6f8721a223c96bcb6abd9b973392ca915395315c3940670c1f460927"
+      },
+      {
+        "path": "marketing_history/results/demo_import.json",
+        "sha256": "fa653eab9436a2a17fae850bb2ee7e55d190a63c4bffa135954d69118c2d1be3"
+      },
+      {
+        "path": "marketing_history/results/export_posts.csv",
+        "sha256": "c379b0085dfcd981c4f3bb12ba72509179e8a2655da9ae782b127c08de905fd3"
+      },
+      {
+        "path": "marketing_history/results/export_posts.json",
+        "sha256": "a4bf6b192fef8d857d5cca37519550bb86d97b0a527037e6f34084ab150e90e1"
+      },
+      {
+        "path": "marketing_history/results/history_calendar.png",
+        "sha256": "debb0ec34a46832a369d9d498ad44f9b8d96fc40a44041e60dd27781c0383185"
+      },
+      {
+        "path": "marketing_history/results/observations.csv",
+        "sha256": "8acea199c679fa1700fc25b4cfcce003042fff63aef931a43f6af42537dd2f93"
+      },
+      {
+        "path": "marketing_history/results/peak_periods.csv",
+        "sha256": "65f5c94b2d23d4513b23e3adaaa69035fbff3b1db6a4103855bc4c7c320415a3"
+      },
+      {
+        "path": "marketing_history/results/post_calendar.csv",
+        "sha256": "4d343ecadcacdb1e0af859282862f78488f9e8f94b62b11ab86672f9c235bf46"
+      },
+      {
+        "path": "marketing_history/results/promo_original_window.csv",
+        "sha256": "186162924cb08b6ca2a8b61d64d27d2be9d129886e78cc771c1852d69d936c25"
+      },
+      {
+        "path": "marketing_history/results/promo_price_comparison.csv",
+        "sha256": "a0f5d41853e6f7e37c63aefc0c3f4a6c14dc42fa74446df6e85c7979ea352cba"
+      },
+      {
+        "path": "marketing_history/results/summary.json",
+        "sha256": "a1f60a0fc3df4f142cb21da80367019493767102fc59ea34783b65a8bf327a13"
+      },
+      {
+        "path": "marketing_history/tests/test_history.py",
+        "sha256": "f499a4ccd45238f5e7300411de93ac42804752dfa4d495601865b2c23ae31868"
+      }
+    ]
+  },
+  {
+    "archive": "05_attribution_analysis.zip",
+    "sha256": "d8184d374b8aa082629c862e7677fcfa6ff5228d9290ab5628a821e9ba89ee8f",
+    "entries": [
+      {
+        "path": "attribution_analysis/01_definitions_and_mvp.md",
+        "sha256": "35b7c5c2ef2bfea5d554950cc23c9be4b91445878d01f3a870697d2c1755b7cf"
+      },
+      {
+        "path": "attribution_analysis/README.md",
+        "sha256": "b7ad3ae17a16844623b89296939f7dc1e13e58d06d57f299f77f89bf07d74661"
+      },
+      {
+        "path": "attribution_analysis/SOURCES.md",
+        "sha256": "a4cdf7e3f178bf8b910599b6682e14b02b80bfaa3af68369b547c9245525af5f"
+      },
+      {
+        "path": "attribution_analysis/build_report.py",
+        "sha256": "9e11c027c108bbeafbd58b610399cbd0691cf90b73ccd2093bc72a87c123a793"
+      },
+      {
+        "path": "attribution_analysis/compare_attribution.py",
+        "sha256": "950f2582583272ce1b6147d8cbd4b0cd11c2db9609db7c8952a877b2fb6427d0"
+      },
+      {
+        "path": "attribution_analysis/data/demo.json",
+        "sha256": "7bf291bc4438fc09b455c44a93319ffc8c0e8a672e87da0634766fb6147838b1"
+      },
+      {
+        "path": "attribution_analysis/data/history_summary.json",
+        "sha256": "a1f60a0fc3df4f142cb21da80367019493767102fc59ea34783b65a8bf327a13"
+      },
+      {
+        "path": "attribution_analysis/data/marketing_observations.json",
+        "sha256": "465540f8954d2a0c96b82215f20f95083be27bbab81d7c6161528bd2948dbf6f"
+      },
+      {
+        "path": "attribution_analysis/data/provenance.json",
+        "sha256": "787e44b586b6304e48f19d4804df12fefee78f9b6533db95e9e397bdb25896d5"
+      },
+      {
+        "path": "attribution_analysis/data/sales_source.csv",
+        "sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6"
+      },
+      {
+        "path": "attribution_analysis/engine/attribution_rules.py",
+        "sha256": "d851db8ce850f6dd269c109c56187e28145303e3d4e16436e94a08c728d50554"
+      },
+      {
+        "path": "attribution_analysis/engine/mvp.py",
+        "sha256": "36199a18250ccceae1e1f20f1e9210586ba22c0d13902a3cf99be67e8969121b"
+      },
+      {
+        "path": "attribution_analysis/engine/schema.sql",
+        "sha256": "43a30cb5a545e1b5b3080a2800017f79145bf8b236fcd70902e7a33dfa40cfbc"
+      },
+      {
+        "path": "attribution_analysis/requirements-report.txt",
+        "sha256": "3e6d48c914feba530725d87259e5d08fc5036dc8acb41e9b9d2248a5dd29d8ae"
+      },
+      {
+        "path": "attribution_analysis/results/05_attribution_analysis.pdf",
+        "sha256": "52579f95eb6f369ebda72f7a06d9ff3bb21f2ccb8b6aa5ee933c55f4712d7e1c"
+      },
+      {
+        "path": "attribution_analysis/results/demo_allocation_ledger.csv",
+        "sha256": "3c43aa4dfd100f8f7a8ac88ec593e2e6061ddc99c7ed0074b07cd0d3be86a131"
+      },
+      {
+        "path": "attribution_analysis/results/demo_decay_sensitivity.csv",
+        "sha256": "f023b920899f40fe323912c57c317f4f01ef981266c1d252df42f9237396f009"
+      },
+      {
+        "path": "attribution_analysis/results/demo_first_touch_7.csv",
+        "sha256": "dbbd1b8f56a6e545708b503ae5561aab3b7352050837f645a8bd8d8d4641535d"
+      },
+      {
+        "path": "attribution_analysis/results/demo_first_touch_7.json",
+        "sha256": "dc5f94c98c7e6d528a5390ede80788a68bd765011a06607c74ed508a9782b398"
+      },
+      {
+        "path": "attribution_analysis/results/demo_last_touch_7.csv",
+        "sha256": "f6ba7ebf4e2a9e555e11a039384e765c1ceb1b2a34ba8b7f3cf5f9bb8c9495a6"
+      },
+      {
+        "path": "attribution_analysis/results/demo_last_touch_7.json",
+        "sha256": "da0c9d7f9b927f8196fd5658992a6988ea9125e8b47bcbc33a91a0b532cdadae"
+      },
+      {
+        "path": "attribution_analysis/results/demo_linear_7.csv",
+        "sha256": "91d1f4bf90dfb857b2d0150a91e525ffa541bbddc5c41ad8d56de860f945a9c6"
+      },
+      {
+        "path": "attribution_analysis/results/demo_linear_7.json",
+        "sha256": "fae7e740b81b652b5dd667b613682b4fd0c45deafca1d6f9851b61e4087d3733"
+      },
+      {
+        "path": "attribution_analysis/results/demo_missing_b_clicks_7.csv",
+        "sha256": "ad6b0e8baeb30bddbad87e79ddf916a4805a2cf9c03439b0a068f54920d39009"
+      },
+      {
+        "path": "attribution_analysis/results/demo_missing_b_clicks_7.json",
+        "sha256": "5c362902a7295bab3a7d7663b06443f5b3983684ebe774d46afd287d52491fdb"
+      },
+      {
+        "path": "attribution_analysis/results/demo_model_stability.csv",
+        "sha256": "21890bdc78a6eed7307b8ff9a1a224ef4d6358c686f72ffb102efc34b2ae15d9"
+      },
+      {
+        "path": "attribution_analysis/results/demo_payment_paths_7.csv",
+        "sha256": "251c251dd2ac6b2e80fc10d2f51f374964c435ac3b7b2fd00a18c8e2c1d31c59"
+      },
+      {
+        "path": "attribution_analysis/results/demo_placement_comparison.csv",
+        "sha256": "96a3c2e9195d9f72fa04bffca2a200682e20b3d7da8954cf147430d87c118cfb"
+      },
+      {
+        "path": "attribution_analysis/results/demo_position_based_7.csv",
+        "sha256": "32b39ff45019c1da5540d782fe8b11accfcf05b0003773f252ff14e800781348"
+      },
+      {
+        "path": "attribution_analysis/results/demo_position_based_7.json",
+        "sha256": "78e698849148719cd70a136986ce09912ce73c28a44317082bb3112272e3e1c0"
+      },
+      {
+        "path": "attribution_analysis/results/demo_time_decay_7.csv",
+        "sha256": "7eb4794a464db49092df9c5e656f0604ab3c221e8b76da52383e13eb0d097bf6"
+      },
+      {
+        "path": "attribution_analysis/results/demo_time_decay_7.json",
+        "sha256": "021341c2c540754e620d6514e43a5b3f9a5f24043f67c37ac92a2ed092f8fdff"
+      },
+      {
+        "path": "attribution_analysis/results/demo_window_coverage.png",
+        "sha256": "5e49c70a63b39b5c9f587250497a3c2ae405fdd6f3cba83b7e3ce3b7752bb96a"
+      },
+      {
+        "path": "attribution_analysis/results/future_20_placements.csv",
+        "sha256": "178eeb0a7e4ec156af10ff8f09b76f65de20756464244bf322c56f1c1a409b44"
+      },
+      {
+        "path": "attribution_analysis/results/history_placements.csv",
+        "sha256": "113681d6469d3dd18f2fa6e0ea093af8428bf4e74aa61233cb5f8960623a2100"
+      },
+      {
+        "path": "attribution_analysis/results/history_placements_import.json",
+        "sha256": "f0a50a61254b5a1b4976ff05a62f9bbda17ad5f1d6cffb220c8718b8d18fa291"
+      },
+      {
+        "path": "attribution_analysis/results/history_registry.csv",
+        "sha256": "c8516b5310afb37c540b3fabb2a09e3a9f9233dd641878edc791d1989a8a3870"
+      },
+      {
+        "path": "attribution_analysis/results/history_registry.json",
+        "sha256": "d3d2ce3161f27ebe262d291ebbf07fa9064003e96c8da0a1f1db51c78a4dc84b"
+      },
+      {
+        "path": "attribution_analysis/results/model_window_comparison.csv",
+        "sha256": "1fe59d612586d0ffd0475259678f43cd9ef4f18e4d1b62d9a223c536178ecac5"
+      },
+      {
+        "path": "attribution_analysis/results/real_last_touch_7.csv",
+        "sha256": "3737b4b494b696cdbb5d3692d371537b913638fe6098e496be757045eb8a1c0a"
+      },
+      {
+        "path": "attribution_analysis/results/real_last_touch_7.json",
+        "sha256": "de1dbd3e551244901c376734b172302722ba8dadb5d78e84bef93578f668e41b"
+      },
+      {
+        "path": "attribution_analysis/results/real_source_status.csv",
+        "sha256": "a2be6c4470c29a0b3ae4119fdecf7d3a58cd80e3ed5e664e042a605c4e878b15"
+      },
+      {
+        "path": "attribution_analysis/results/summary.json",
+        "sha256": "30538c2b07971bb75de0affc99321f0aa6d4632531efadf7a34c3575a75866b0"
+      },
+      {
+        "path": "attribution_analysis/tests/test_attribution_rules.py",
+        "sha256": "54d920a723f6d22924ceb2122658d255574a43dd9880ecbb9c538dd1eed78ac3"
+      },
+      {
+        "path": "attribution_analysis/tests/test_original_mvp.py",
+        "sha256": "5b66f9bb4d2a1a797273eda5675a4c1ca5be2a4d6858377bb26cb727a56bf2ee"
+      }
+    ]
+  },
+  {
+    "archive": "06_sales_forecast.zip",
+    "sha256": "7c00dc27f53799dc910904ee61d1c4735a189432e39374e5c26a7b463a484d31",
+    "entries": [
+      {
+        "path": "sales_forecast/01_definitions_and_mvp.md",
+        "sha256": "35b7c5c2ef2bfea5d554950cc23c9be4b91445878d01f3a870697d2c1755b7cf"
+      },
+      {
+        "path": "sales_forecast/README.md",
+        "sha256": "5a4c48fafa4d24300f66fcd1a0fdfd84c7e62c465d324e1c9f17469bbae2e39b"
+      },
+      {
+        "path": "sales_forecast/SOURCES.md",
+        "sha256": "013cb901aa8b12b2f0058b24f63a9b3ddc1cec25c049af4871d428db6000efbc"
+      },
+      {
+        "path": "sales_forecast/build_report.py",
+        "sha256": "b32e02bba48ab70c0128024d307d67fef14830ad3901683929343cba97d6367c"
+      },
+      {
+        "path": "sales_forecast/data/campaigns.csv",
+        "sha256": "9b0efacc497d0a96f3c20ff11543d4ea5ff7e679b5baa42dab25b6c49189afb7"
+      },
+      {
+        "path": "sales_forecast/data/feature_contract.csv",
+        "sha256": "cd271973a0a68ed895e38d8656c8b88adfcb1fc47d9cde2396686f2cccafffbd"
+      },
+      {
+        "path": "sales_forecast/data/marketing_calendar.csv",
+        "sha256": "9c3f4f403b5a10aeb1d20f4cf14414cee3a07e71e25e4f7f3b7784111f0cdcec"
+      },
+      {
+        "path": "sales_forecast/data/provenance.json",
+        "sha256": "313c3dce773d7de214de289e6d3dadc2e720628d538b49404cde01ffda20d052"
+      },
+      {
+        "path": "sales_forecast/data/sales_source.csv",
+        "sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6"
+      },
+      {
+        "path": "sales_forecast/forecast.py",
+        "sha256": "3cb2c5ea5c6ec6eb2cd3bee9f9e38dab72b2ed91e7ab14ac2c0741e5067d68c0"
+      },
+      {
+        "path": "sales_forecast/requirements-report.txt",
+        "sha256": "3e6d48c914feba530725d87259e5d08fc5036dc8acb41e9b9d2248a5dd29d8ae"
+      },
+      {
+        "path": "sales_forecast/results/06_sales_forecast.pdf",
+        "sha256": "50b66e81af6be1078d9ee2596b7e75e49f0e4d65c36976e2bc3b8b81e12147c1"
+      },
+      {
+        "path": "sales_forecast/results/backtest_daily.csv",
+        "sha256": "373d3d9ab0f48c98421c471d6db2ed84daf3d3fb9fc1c6ab6dbf3908a2dc16f6"
+      },
+      {
+        "path": "sales_forecast/results/backtest_windows.csv",
+        "sha256": "1a429dfe3acc8553faee63c120b77b21f787c0d54d57998fb2df1a8f3381c909"
+      },
+      {
+        "path": "sales_forecast/results/charts/forecast.png",
+        "sha256": "2b14a47c8f9ada05e39202436f5642b019ed2dba8d45ae17d8a650f048d88716"
+      },
+      {
+        "path": "sales_forecast/results/charts/holdout.png",
+        "sha256": "7300dbb1d2088fa05e39f47acb091fb0d80470bbbf31bbc7264b13689c79391d"
+      },
+      {
+        "path": "sales_forecast/results/course_sparsity.csv",
+        "sha256": "7cd0f179e1b0959db6b9ff4ce890bba7429737949512574e5c94eed3d0de8406"
+      },
+      {
+        "path": "sales_forecast/results/daily_sales.csv",
+        "sha256": "69b3eada638d86b1bd775d2db13649b52ac656ecca4b20a58efe151d20296f41"
+      },
+      {
+        "path": "sales_forecast/results/forecast_all_models.csv",
+        "sha256": "5a62f2b03f6e0f83a07e160f1fd85034365c8ef5a76644bb43dd58d2c9167d7e"
+      },
+      {
+        "path": "sales_forecast/results/forecast_daily.csv",
+        "sha256": "199cf931ef57b852482e2147b9bb83f2eaa67a92d52e9ff709a8774109f9bb59"
+      },
+      {
+        "path": "sales_forecast/results/forecast_week.csv",
+        "sha256": "283c727f487b9f50660280ece98d3f94ada26457be0fc9548f4d5b05b54804f9"
+      },
+      {
+        "path": "sales_forecast/results/historical_range_errors.csv",
+        "sha256": "1107df54f49ef0788fde87d0efe1251e9c94f9c0762ec1d97ec9905cf8edf1a6"
+      },
+      {
+        "path": "sales_forecast/results/holdout_range_check.csv",
+        "sha256": "a74a5f96baea3f9c283d6dea17630b4fd696cae36e548cb87bcb8e941621c535"
+      },
+      {
+        "path": "sales_forecast/results/horizon_sensitivity.csv",
+        "sha256": "8e8bb9b25fd637fe2ea52002472beae277c75dffd856fad6469e8c06e0a5006b"
+      },
+      {
+        "path": "sales_forecast/results/model_scores.csv",
+        "sha256": "9e5e35594653a27fca6ab0ee3be051b50e6a3433f2c67fef9a4770861c91a1e9"
+      },
+      {
+        "path": "sales_forecast/results/summary.json",
+        "sha256": "581124c925a0f08f5427cefa7c37b73fa7dd68adba49a4da3753c86bc0d17f67"
+      },
+      {
+        "path": "sales_forecast/tests/test_forecast.py",
+        "sha256": "ff07b36cf0760aeafb8b68b12d22725edc182e729bffe352f3dd4057bd94505e"
+      }
+    ]
+  },
+  {
+    "archive": "07_causal_budget.zip",
+    "sha256": "05319920ad4acba9cb8f8601e7941e6db55eba827f78dc596629493bf8a64d82",
+    "entries": [
+      {
+        "path": "causal_budget/01_definitions_and_mvp.md",
+        "sha256": "35b7c5c2ef2bfea5d554950cc23c9be4b91445878d01f3a870697d2c1755b7cf"
+      },
+      {
+        "path": "causal_budget/PROTOCOL.md",
+        "sha256": "c643a1067a67cad1484da957f037c9176a8096200ffb6b9841d4dbe0b021eed0"
+      },
+      {
+        "path": "causal_budget/README.md",
+        "sha256": "ce85f207ce1acce30ce72fa373740c7df76523fcc7bd483e7b6cb466aaedf921"
+      },
+      {
+        "path": "causal_budget/build_report.py",
+        "sha256": "c53bf1fbe3938da7e8d504880f0b720980eefbd2593e62c25ac11421e4e16517"
+      },
+      {
+        "path": "causal_budget/data/forecast_summary.json",
+        "sha256": "581124c925a0f08f5427cefa7c37b73fa7dd68adba49a4da3753c86bc0d17f67"
+      },
+      {
+        "path": "causal_budget/data/future_20_placements.csv",
+        "sha256": "178eeb0a7e4ec156af10ff8f09b76f65de20756464244bf322c56f1c1a409b44"
+      },
+      {
+        "path": "causal_budget/data/sales_summary.json",
+        "sha256": "69e9542022c7165e25dd418eda79595c73af8e95ae0d283ae268cc5b1dacf747"
+      },
+      {
+        "path": "causal_budget/experiment.py",
+        "sha256": "25a401f57326010da9eb3dc82472c5e3994eacb2a27404861adf0ddc2ff5b0f1"
+      },
+      {
+        "path": "causal_budget/plan_analysis.py",
+        "sha256": "0ffc419d12a0ab9d0ca954ef206fbc4f06533b152d8954ca8a95466fc9476d10"
+      },
+      {
+        "path": "causal_budget/requirements-report.txt",
+        "sha256": "3e6d48c914feba530725d87259e5d08fc5036dc8acb41e9b9d2248a5dd29d8ae"
+      },
+      {
+        "path": "causal_budget/requirements.txt",
+        "sha256": "f13fd041a83c2c1fa09f96ebc74e4fa167c1a6d2284ef85dfeca06d9a4d290dd"
+      },
+      {
+        "path": "causal_budget/results/07_causal_budget.pdf",
+        "sha256": "bf9d65869efc4ebb1e99488ecfa67ee3e74d5fedca830632c6adefcbb225f8e5"
+      },
+      {
+        "path": "causal_budget/results/break_even.csv",
+        "sha256": "7f8d6872505f09f3d4d72b11b2db90282cf45d4dd3f22ec13f2ee29942c8f216"
+      },
+      {
+        "path": "causal_budget/results/budget_stages.csv",
+        "sha256": "7d3c8ae1ab56cafe7d3ff221b7190a35ec775f8e3df9073231574318003a4a56"
+      },
+      {
+        "path": "causal_budget/results/charts/profit_scenarios.png",
+        "sha256": "c7a75c45f0ae35b8395d15ccfbc9270660d2d92d4c81f60435ff8837590e45c5"
+      },
+      {
+        "path": "causal_budget/results/charts/synthetic_interval.png",
+        "sha256": "313db04afa86ade86129cb0b2022947bb98d78e3d58ba34a2849864199e65b46"
+      },
+      {
+        "path": "causal_budget/results/mde_by_audience.csv",
+        "sha256": "d3a9951dcbf5a6dfd3500258ffdbfc8d41352726e9c09e4928fbe25889fdecca"
+      },
+      {
+        "path": "causal_budget/results/pilot_candidates.csv",
+        "sha256": "84f1095b85d73ec6908a7d999db37b9780c40ae4a1981ee329b0e20e76e569fa"
+      },
+      {
+        "path": "causal_budget/results/power_contribution.csv",
+        "sha256": "1d1c74143e9b0a1734cf11ea6e69f75f80c6a60dc15c3c86aa5874b047c87df9"
+      },
+      {
+        "path": "causal_budget/results/power_conversion.csv",
+        "sha256": "2ec4fc1043b9768653207b4d73b69854d35131390d9fe43b890a2ec5c7b3eff0"
+      },
+      {
+        "path": "causal_budget/results/summary.json",
+        "sha256": "14034699b624115cea3ad7d219c221aa02bf19e07ea163545265020c07138e08"
+      },
+      {
+        "path": "causal_budget/results/synthetic_demo/analysis.json",
+        "sha256": "2e2d53df4fee554be0fc5bbd3b878145d9e802a5157c1e48c3fdf95acbb7a274"
+      },
+      {
+        "path": "causal_budget/results/synthetic_demo/assignments.csv",
+        "sha256": "c74a6ac3c40a7dc20a3e99f4e86d7644f158273c947799cc96c1dc46b7045e3e"
+      },
+      {
+        "path": "causal_budget/results/synthetic_demo/config.json",
+        "sha256": "d68ff2e4e1385ff5e98c781c9d5e2fca6a8ddd275e3ca2ab6a0155e2522153c1"
+      },
+      {
+        "path": "causal_budget/results/synthetic_demo/outcomes.csv",
+        "sha256": "670195f0724c9c269b735ddb81db7c7d291b621590d96f3fe171566a8c123a5a"
+      },
+      {
+        "path": "causal_budget/tests/test_causal.py",
+        "sha256": "1989b39c5ef45f440ebdefb98bc083fa16e52071c68f3ee45377d35bec8bbaaa"
+      }
+    ]
+  },
+  {
+    "archive": "08_final_submission.zip",
+    "sha256": "5844c1dc898f1c54bcf7c0b019ca09e9822b6d2637730abcf0fca9142e7f0309",
+    "entries": [
+      {
+        "path": "postupashki_final/.gitignore",
+        "sha256": "eda45a6d74358182a7e15de8ef9629787e338b2f3d236419a236cfcbadaaba98"
+      },
+      {
+        "path": "postupashki_final/README.md",
+        "sha256": "374b205fa6172c58dd672bc047da2ee076038c435c4cfdc6e7f05857097e2baf"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/SOURCES.md",
+        "sha256": "a4cdf7e3f178bf8b910599b6682e14b02b80bfaa3af68369b547c9245525af5f"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/build_report.py",
+        "sha256": "9e11c027c108bbeafbd58b610399cbd0691cf90b73ccd2093bc72a87c123a793"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/compare_attribution.py",
+        "sha256": "950f2582583272ce1b6147d8cbd4b0cd11c2db9609db7c8952a877b2fb6427d0"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/data/add_sale.example.json",
+        "sha256": "6065f5e589eafc41edcea58384bd07ca6645b77200f1b86eec61cd7543c865f4"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/data/demo.json",
+        "sha256": "7bf291bc4438fc09b455c44a93319ffc8c0e8a672e87da0634766fb6147838b1"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/data/history_summary.json",
+        "sha256": "a1f60a0fc3df4f142cb21da80367019493767102fc59ea34783b65a8bf327a13"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/data/marketing_observations.json",
+        "sha256": "9141002f1d6d21a010886710cb16ee545d07a0f28bff99399ce95bc303e05590"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/data/provenance.json",
+        "sha256": "787e44b586b6304e48f19d4804df12fefee78f9b6533db95e9e397bdb25896d5"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/engine/attribution_rules.py",
+        "sha256": "d851db8ce850f6dd269c109c56187e28145303e3d4e16436e94a08c728d50554"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/engine/mvp.py",
+        "sha256": "36199a18250ccceae1e1f20f1e9210586ba22c0d13902a3cf99be67e8969121b"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/engine/schema.sql",
+        "sha256": "43a30cb5a545e1b5b3080a2800017f79145bf8b236fcd70902e7a33dfa40cfbc"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/tests/test_attribution_rules.py",
+        "sha256": "54d920a723f6d22924ceb2122658d255574a43dd9880ecbb9c538dd1eed78ac3"
+      },
+      {
+        "path": "postupashki_final/analysis/attribution_analysis/tests/test_original_mvp.py",
+        "sha256": "5b66f9bb4d2a1a797273eda5675a4c1ca5be2a4d6858377bb26cb727a56bf2ee"
+      },
+      {
+        "path": "postupashki_final/analysis/causal_budget/build_report.py",
+        "sha256": "c53bf1fbe3938da7e8d504880f0b720980eefbd2593e62c25ac11421e4e16517"
+      },
+      {
+        "path": "postupashki_final/analysis/causal_budget/data/forecast_summary.json",
+        "sha256": "581124c925a0f08f5427cefa7c37b73fa7dd68adba49a4da3753c86bc0d17f67"
+      },
+      {
+        "path": "postupashki_final/analysis/causal_budget/data/future_20_placements.csv",
+        "sha256": "178eeb0a7e4ec156af10ff8f09b76f65de20756464244bf322c56f1c1a409b44"
+      },
+      {
+        "path": "postupashki_final/analysis/causal_budget/data/sales_summary.json",
+        "sha256": "34ad0af2e6b682d52c3d8ad6cd59008939e1c613e56398469f4f3be86a0343f5"
+      },
+      {
+        "path": "postupashki_final/analysis/causal_budget/experiment.py",
+        "sha256": "25a401f57326010da9eb3dc82472c5e3994eacb2a27404861adf0ddc2ff5b0f1"
+      },
+      {
+        "path": "postupashki_final/analysis/causal_budget/plan_analysis.py",
+        "sha256": "0ffc419d12a0ab9d0ca954ef206fbc4f06533b152d8954ca8a95466fc9476d10"
+      },
+      {
+        "path": "postupashki_final/analysis/causal_budget/tests/test_causal.py",
+        "sha256": "1989b39c5ef45f440ebdefb98bc083fa16e52071c68f3ee45377d35bec8bbaaa"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/SOURCES.md",
+        "sha256": "efe67a22b90262318b66a60bef005be34c91d76195b5b04662bca4109e071673"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/analyze_history.py",
+        "sha256": "39d8bbd1c87583470f4ad3b2548373972309d43230e5dfc791b0ddb725543dac"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/build_journal.py",
+        "sha256": "56dc41c9db3179bcb0d5f58a6163509034fc8eb84f0275e7d69f8230cf4332dc"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/build_report.py",
+        "sha256": "6911e03b40d16c1d4c6e8864e07eee122e9e8de16e3c1bfee500aa3b2d820b28"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/data/demo_export.json",
+        "sha256": "958eaa2ccdf3ea84c95f46af3c1716984f7fd948239300d8a314f6efc3b59a16"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/data/external_candidates.json",
+        "sha256": "f6aeb682d2ea09a1f1e9ca6353103d7a579aff9260310effefb2f26dfa39fd1b"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/data/observations.json",
+        "sha256": "9141002f1d6d21a010886710cb16ee545d07a0f28bff99399ce95bc303e05590"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/data/post_reviews.json",
+        "sha256": "63dd17057d4f5483cfb87d83c50635e81db1a89e0f2d296d0101b09cf916dd67"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/data/public_observations_before_export.json",
+        "sha256": "018a763ef0696eac6f18cfbd74c7f57ee3cc3979eb10ddb526643221eef06074"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/import_html.py",
+        "sha256": "8ef67a5ad8be9e0a1de5e46b0b72bda535834471eceb643e18dad46e247d6ff9"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/normalize_export.py",
+        "sha256": "c33f3cf7cf884961719eade1a717cb33f6dfa7b4b4b00ab49f9ce0dbb9245569"
+      },
+      {
+        "path": "postupashki_final/analysis/marketing_history/tests/test_history.py",
+        "sha256": "f499a4ccd45238f5e7300411de93ac42804752dfa4d495601865b2c23ae31868"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_analysis/analyze_sales.py",
+        "sha256": "2be65d7210e7e06355b6bc50b5a0a55aab14ba869bbfcec900ab97efa777d557"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_analysis/build_report.py",
+        "sha256": "84452ccdef31e547bef02d08f3666d94ff44327a7e006834909f14ccab0749cd"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_forecast/SOURCES.md",
+        "sha256": "013cb901aa8b12b2f0058b24f63a9b3ddc1cec25c049af4871d428db6000efbc"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_forecast/build_report.py",
+        "sha256": "b32e02bba48ab70c0128024d307d67fef14830ad3901683929343cba97d6367c"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_forecast/data/campaigns.csv",
+        "sha256": "9b0efacc497d0a96f3c20ff11543d4ea5ff7e679b5baa42dab25b6c49189afb7"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_forecast/data/feature_contract.csv",
+        "sha256": "cd271973a0a68ed895e38d8656c8b88adfcb1fc47d9cde2396686f2cccafffbd"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_forecast/data/marketing_calendar.csv",
+        "sha256": "9c3f4f403b5a10aeb1d20f4cf14414cee3a07e71e25e4f7f3b7784111f0cdcec"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_forecast/data/provenance.json",
+        "sha256": "313c3dce773d7de214de289e6d3dadc2e720628d538b49404cde01ffda20d052"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_forecast/forecast.py",
+        "sha256": "3cb2c5ea5c6ec6eb2cd3bee9f9e38dab72b2ed91e7ab14ac2c0741e5067d68c0"
+      },
+      {
+        "path": "postupashki_final/analysis/sales_forecast/tests/test_forecast.py",
+        "sha256": "ff07b36cf0760aeafb8b68b12d22725edc182e729bffe352f3dd4057bd94505e"
+      },
+      {
+        "path": "postupashki_final/docs/Executive_summary.pdf",
+        "sha256": "47ff2e9f7a41fe599e77c354ba92b214b7bf60a99c2cee47f4c59831be002d96"
+      },
+      {
+        "path": "postupashki_final/docs/Presentation.pptx",
+        "sha256": "34fa2c8685590f36e4075497d7107655b3940a98a03c674808751041896d57f0"
+      },
+      {
+        "path": "postupashki_final/docs/architecture.md",
+        "sha256": "ba5c09b0933bcd013a4f593811fbc2276de621e38a5c6b200eb8f7db9b93227e"
+      },
+      {
+        "path": "postupashki_final/docs/definitions.md",
+        "sha256": "e67354ccdfd2a137638c3054a59b02d5abe6d5b142f6beb7856eeb206047733c"
+      },
+      {
+        "path": "postupashki_final/docs/experiment_protocol.md",
+        "sha256": "c643a1067a67cad1484da957f037c9176a8096200ffb6b9841d4dbe0b021eed0"
+      },
+      {
+        "path": "postupashki_final/docs/import_contract.md",
+        "sha256": "fac359d7d84c510e4d734e189d9f2f2a9c87b99b00c9d27153f826486277e1a3"
+      },
+      {
+        "path": "postupashki_final/docs/solution.md",
+        "sha256": "b167f249cad1e957b141ad71befdc456cba93b2d93fc5a7bc3c080165dccc0a0"
+      },
+      {
+        "path": "postupashki_final/docs/validation.md",
+        "sha256": "988d79e4baf60f7186aedbc251af4d90f7b3605045628f6e28f99a0d3d6ff427"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis/demo_allocation_ledger.csv",
+        "sha256": "3c43aa4dfd100f8f7a8ac88ec593e2e6061ddc99c7ed0074b07cd0d3be86a131"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis/demo_decay_sensitivity.csv",
+        "sha256": "f023b920899f40fe323912c57c317f4f01ef981266c1d252df42f9237396f009"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis/demo_model_stability.csv",
+        "sha256": "21890bdc78a6eed7307b8ff9a1a224ef4d6358c686f72ffb102efc34b2ae15d9"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis/demo_payment_paths_7.csv",
+        "sha256": "251c251dd2ac6b2e80fc10d2f51f374964c435ac3b7b2fd00a18c8e2c1d31c59"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis/demo_placement_comparison.csv",
+        "sha256": "96a3c2e9195d9f72fa04bffca2a200682e20b3d7da8954cf147430d87c118cfb"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis/future_20_placements.csv",
+        "sha256": "178eeb0a7e4ec156af10ff8f09b76f65de20756464244bf322c56f1c1a409b44"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis/history_placements.csv",
+        "sha256": "113681d6469d3dd18f2fa6e0ea093af8428bf4e74aa61233cb5f8960623a2100"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis/model_window_comparison.csv",
+        "sha256": "1fe59d612586d0ffd0475259678f43cd9ef4f18e4d1b62d9a223c536178ecac5"
+      },
+      {
+        "path": "postupashki_final/evidence/attribution_analysis_summary.json",
+        "sha256": "30538c2b07971bb75de0affc99321f0aa6d4632531efadf7a34c3575a75866b0"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/break_even.csv",
+        "sha256": "7f8d6872505f09f3d4d72b11b2db90282cf45d4dd3f22ec13f2ee29942c8f216"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/budget_stages.csv",
+        "sha256": "7d3c8ae1ab56cafe7d3ff221b7190a35ec775f8e3df9073231574318003a4a56"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/mde_by_audience.csv",
+        "sha256": "d3a9951dcbf5a6dfd3500258ffdbfc8d41352726e9c09e4928fbe25889fdecca"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/pilot_candidates.csv",
+        "sha256": "84f1095b85d73ec6908a7d999db37b9780c40ae4a1981ee329b0e20e76e569fa"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/power_contribution.csv",
+        "sha256": "1d1c74143e9b0a1734cf11ea6e69f75f80c6a60dc15c3c86aa5874b047c87df9"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/power_conversion.csv",
+        "sha256": "2ec4fc1043b9768653207b4d73b69854d35131390d9fe43b890a2ec5c7b3eff0"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/synthetic_demo/analysis.json",
+        "sha256": "2e2d53df4fee554be0fc5bbd3b878145d9e802a5157c1e48c3fdf95acbb7a274"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/synthetic_demo/assignments.csv",
+        "sha256": "c74a6ac3c40a7dc20a3e99f4e86d7644f158273c947799cc96c1dc46b7045e3e"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/synthetic_demo/config.json",
+        "sha256": "d68ff2e4e1385ff5e98c781c9d5e2fca6a8ddd275e3ca2ab6a0155e2522153c1"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget/synthetic_demo/outcomes.csv",
+        "sha256": "670195f0724c9c269b735ddb81db7c7d291b621590d96f3fe171566a8c123a5a"
+      },
+      {
+        "path": "postupashki_final/evidence/causal_budget_summary.json",
+        "sha256": "14034699b624115cea3ad7d219c221aa02bf19e07ea163545265020c07138e08"
+      },
+      {
+        "path": "postupashki_final/evidence/marketing_history/campaigns.csv",
+        "sha256": "9b0efacc497d0a96f3c20ff11543d4ea5ff7e679b5baa42dab25b6c49189afb7"
+      },
+      {
+        "path": "postupashki_final/evidence/marketing_history/daily_calendar.csv",
+        "sha256": "9c3f4f403b5a10aeb1d20f4cf14414cee3a07e71e25e4f7f3b7784111f0cdcec"
+      },
+      {
+        "path": "postupashki_final/evidence/marketing_history/peak_periods.csv",
+        "sha256": "65f5c94b2d23d4513b23e3adaaa69035fbff3b1db6a4103855bc4c7c320415a3"
+      },
+      {
+        "path": "postupashki_final/evidence/marketing_history/post_calendar.csv",
+        "sha256": "4d343ecadcacdb1e0af859282862f78488f9e8f94b62b11ab86672f9c235bf46"
+      },
+      {
+        "path": "postupashki_final/evidence/marketing_history_summary.json",
+        "sha256": "a1f60a0fc3df4f142cb21da80367019493767102fc59ea34783b65a8bf327a13"
+      },
+      {
+        "path": "postupashki_final/evidence/provenance.json",
+        "sha256": "46090f708862714f8c9505c12695ea5e6bbea6ec494adb021e19fd8f0a0acfa7"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_analysis/tables/daily.csv",
+        "sha256": "feb3a395a5941773aa035589acb9f712c82c96f6eedab4396fe496706f8c9972"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_analysis/tables/followup_same_cohort.csv",
+        "sha256": "c26368b83f4adc27756a2aeb3580eeaec2f69a7ab34d84f86393edbc93889098"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_analysis/tables/order_types.csv",
+        "sha256": "1915a66ec61ff2f344450a0c35cfbac788a23956a7a7c943470f785a6c3273e6"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_analysis/tables/product_pairs.csv",
+        "sha256": "cf88fd3bb8a69003e5870d165606ef65dd702ca08f6cc98fcab3b2f1c97a4970"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_analysis/tables/products.csv",
+        "sha256": "c7de066d44dc066eaac3bcf940fdd7ddd104c9b01c239f188eb0a4b8a97dbde3"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_analysis/tables/weekdays.csv",
+        "sha256": "11d6ced8e4a98f7103eb056f6bb02c9511c3ea58db691b5a02ec33df0ac8e2ff"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/backtest_daily.csv",
+        "sha256": "373d3d9ab0f48c98421c471d6db2ed84daf3d3fb9fc1c6ab6dbf3908a2dc16f6"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/backtest_windows.csv",
+        "sha256": "1a429dfe3acc8553faee63c120b77b21f787c0d54d57998fb2df1a8f3381c909"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/daily_sales.csv",
+        "sha256": "69b3eada638d86b1bd775d2db13649b52ac656ecca4b20a58efe151d20296f41"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/forecast_daily.csv",
+        "sha256": "199cf931ef57b852482e2147b9bb83f2eaa67a92d52e9ff709a8774109f9bb59"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/forecast_week.csv",
+        "sha256": "283c727f487b9f50660280ece98d3f94ada26457be0fc9548f4d5b05b54804f9"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/historical_range_errors.csv",
+        "sha256": "1107df54f49ef0788fde87d0efe1251e9c94f9c0762ec1d97ec9905cf8edf1a6"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/holdout_range_check.csv",
+        "sha256": "a74a5f96baea3f9c283d6dea17630b4fd696cae36e548cb87bcb8e941621c535"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/horizon_sensitivity.csv",
+        "sha256": "8e8bb9b25fd637fe2ea52002472beae277c75dffd856fad6469e8c06e0a5006b"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast/model_scores.csv",
+        "sha256": "9e5e35594653a27fca6ab0ee3be051b50e6a3433f2c67fef9a4770861c91a1e9"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_forecast_summary.json",
+        "sha256": "581124c925a0f08f5427cefa7c37b73fa7dd68adba49a4da3753c86bc0d17f67"
+      },
+      {
+        "path": "postupashki_final/evidence/sales_summary.json",
+        "sha256": "34ad0af2e6b682d52c3d8ad6cd59008939e1c613e56398469f4f3be86a0343f5"
+      },
+      {
+        "path": "postupashki_final/evidence/validation/demo_check.json",
+        "sha256": "ca070b4558e91d84386d8a26cb5fc1cc34a02dc50dfe466a417f0f2963e810c0"
+      },
+      {
+        "path": "postupashki_final/evidence/validation/tests_attribution_analysis.log",
+        "sha256": "7e3448d4d4eace95a0ecb98ce35e7b4989c533813b9b3bf7f8ee1142cb5d3758"
+      },
+      {
+        "path": "postupashki_final/evidence/validation/tests_causal_budget.log",
+        "sha256": "ce77434fbea809675aea5c3a1f90605cceb12ce5ff92ee01ef6a12861ec4ff8b"
+      },
+      {
+        "path": "postupashki_final/evidence/validation/tests_marketing_history.log",
+        "sha256": "8f68c01ed8354c88c3ff63bf8f4cb641ae249410f46089338a9bd08b168c0fa4"
+      },
+      {
+        "path": "postupashki_final/evidence/validation/tests_sales_forecast.log",
+        "sha256": "596eb6f5496c7e1d91a6fb68cce39dee44e352dfc3ddec6529dcc9800061f785"
+      },
+      {
+        "path": "postupashki_final/requirements.txt",
+        "sha256": "dce655f33a9e46aae30c2face82c2008b01f31223bab624614802c233b8902da"
+      },
+      {
+        "path": "postupashki_final/run.py",
+        "sha256": "a72ad34f6fec309b7f230a94950edd54b78401f6a3d1e87ef1801a686f1326af"
+      },
+      {
+        "path": "postupashki_final/MANIFEST.json",
+        "sha256": "7900886a3aadb50be7e0f49ddecb2ffce65de5f68f4899fdc3f44a8a16a8e65b"
+      }
+    ]
+  },
+  {
+    "archive": "postupashki_data.zip",
+    "sha256": "a65f2eb96827630b6c22e0e0cc871049b669b61a0069657805954e98f6b351dd",
+    "entries": [
+      {
+        "path": "postupashki_data/README.md",
+        "sha256": "26d33ff4f4c3d58a4b06258b42c7a50a06c00c4902262decf10d7f1c56e991cd"
+      },
+      {
+        "path": "postupashki_data/data/postupashki.sqlite3",
+        "sha256": "e721ceb6f0222c3c0901cbc4c798ecf3348df8b8436a6a2eef6eef07beaed44c"
+      },
+      {
+        "path": "postupashki_data/docs/bot_contract.md",
+        "sha256": "9e5628751333871bd91a7fe676debd0c731b80278b00fa472c35bb83e2b9d55e"
+      },
+      {
+        "path": "postupashki_data/docs/feature_dictionary.json",
+        "sha256": "0af8cd190355fe67ca4ad9d7e96a8ed1cc816680d9535710d3fbd56dd49bfdcf"
+      },
+      {
+        "path": "postupashki_data/docs/features.md",
+        "sha256": "742242a60a9a115a5bf523c962428edf3e521677403d4671e8a88d4c2ceaac9a"
+      },
+      {
+        "path": "postupashki_data/docs/marketing.md",
+        "sha256": "6519ba6e131cab3bb4811fed672110c3065a35fb2898e1eeb88db81e82506811"
+      },
+      {
+        "path": "postupashki_data/docs/schema_reference.md",
+        "sha256": "558da3710f11fa9c5b3607c55fb922cd9a3f58fc686f1064f27c0878485e61b6"
+      },
+      {
+        "path": "postupashki_data/ingest_template.json",
+        "sha256": "7f11b0f6dafbd18207641c9aaa693370768817431c31a04ce7511b8d767ef24f"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/__init__.py",
+        "sha256": "a0eb7b0c4f6391eec0abcf065f381dab2b0a2d7fed9ed00cc4f1ef7b9311431f"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/__main__.py",
+        "sha256": "4841cc9fd804ec5a24fd6485f1e80c16edd70155ed4e59246efed1ccdaccae87"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/catalog.py",
+        "sha256": "f6862f66a6489af99d88a319f9cc1b43a9da46a147384a761d00e161663087d9"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/db.py",
+        "sha256": "51c2b6dddfdbd2663a4bf6f510067072c250677255f76693a8e6b56037d72e20"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/features.py",
+        "sha256": "02a6649d2224f21c3b487f68e76d3c3dce7d7a5c93abb2c774e7ba4f4b0b66a3"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/marketing.py",
+        "sha256": "fffd42277c82883b8edcb131aa81845b53fdba454dda43f24fc2f9491a369b81"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/marketing_schema.sql",
+        "sha256": "eb7bcef47d19ce837bc19a14a5e0395557b277bbe1377e9d770d2a2a18f5f9a5"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/marketing_validation.py",
+        "sha256": "e1a6f7644ac994d973191dc92b5bcd25310d12e0c07d2daa2b1b73bf0f274161"
+      },
+      {
+        "path": "postupashki_data/postupashki_data/schema.sql",
+        "sha256": "35313c281198e369bfe043fa9fd97afa8b9dd902d24c44065659563dc1f350db"
+      },
+      {
+        "path": "postupashki_data/pyproject.toml",
+        "sha256": "4a7f5d37a4af3fc5d60685fda0f677b3f1c743d2f1d4d11a376c4f90679bec0e"
+      },
+      {
+        "path": "postupashki_data/tests/test_data.py",
+        "sha256": "c8e93dca7527fe61a3645bd66a010a05fd48a7a8dd0474fb1920b07022b4aa80"
+      },
+      {
+        "path": "postupashki_data/tests/test_marketing.py",
+        "sha256": "614c1dc006dc6369f1af3b0fa38b8d1fe266bde5041a40a00d2f11aa146a8c9b"
+      }
+    ]
+  },
+  {
+    "archive": "postupashki_platform.zip",
+    "sha256": "b1b2dec2bb902398baebb9de32fa4809a0c4774be640d035cc66bd35ee050516",
+    "entries": [
+      {
+        "path": "postupashki_platform/.env.example",
+        "sha256": "7f8adde10d3093c7d26a18ced7d3e048b4c2a547ea0e4a30e4998e2dcfb0781d"
+      },
+      {
+        "path": "postupashki_platform/.gitignore",
+        "sha256": "f949ba40c94ec94baa48a435880b71b5d8b064ec4c23ca714d31733908099f44"
+      },
+      {
+        "path": "postupashki_platform/README.md",
+        "sha256": "fc20029551a29ff60f2da04267cce9e89434aba2150a4cabceddbc937f59ef62"
+      },
+      {
+        "path": "postupashki_platform/analytics.py",
+        "sha256": "580c64a8e03e29e7dfedd7cb05dbbc9b0a3b88f4b46020537d359072f71627d5"
+      },
+      {
+        "path": "postupashki_platform/app.py",
+        "sha256": "f4250b9c445c74d88f129a725108fb89c62057aebc19392de63948e74d907450"
+      },
+      {
+        "path": "postupashki_platform/bot.py",
+        "sha256": "bef22397b52b0c17cabbb124450d23f556924c38181239ce1001c335f8b404ef"
+      },
+      {
+        "path": "postupashki_platform/collector.py",
+        "sha256": "d48193bb138e3f8cc8bf9d41643b537b3d4da0221ffcda8af63d5cce40f4caff"
+      },
+      {
+        "path": "postupashki_platform/config.py",
+        "sha256": "73338316bbcbe9ddd4538f1c2d949b640359313341c76e45715a7f5ff40c181a"
+      },
+      {
+        "path": "postupashki_platform/dashboard/app.js",
+        "sha256": "f2c5e1a124cbce9ba236547e80ef7056dbe08422e8b8ef5c1bc2e373c88f54a7"
+      },
+      {
+        "path": "postupashki_platform/dashboard/index.html",
+        "sha256": "22527874fe28b92dcf69ba6abcb0a4b5c5af3c4416a96f4bd43894ce8ba0fff9"
+      },
+      {
+        "path": "postupashki_platform/dashboard/style.css",
+        "sha256": "ec74e33578faf08390a5232738bc59fcd1d73eb0dd3fa8cc4f2629fe6d99887b"
+      },
+      {
+        "path": "postupashki_platform/dashboard_demo.html",
+        "sha256": "566e111a0e3922b6f5e46dc94b3fb971bad0a34d7f5e0e4505bd25fe158d2e21"
+      },
+      {
+        "path": "postupashki_platform/data/demo.sqlite3",
+        "sha256": "8138673bf6bfc4a39b410b949573af5ad18d8ac166509c05c266aeee0bd4831b"
+      },
+      {
+        "path": "postupashki_platform/data/postupashki.sqlite3",
+        "sha256": "4932bd3318b35187d8288ddf03ba5901bc61f049c378dcf00c88f5f1d963b6f4"
+      },
+      {
+        "path": "postupashki_platform/demo.py",
+        "sha256": "cc932d1ae24d50d0c9ee25f5d19137425812b9c2c641fba6741c660a7568c060"
+      },
+      {
+        "path": "postupashki_platform/docs/DASHBOARDS.md",
+        "sha256": "2fe4b6189a4053d053c55e7e4ab9bb8a7b64cac1e628d7cc0d03eaa030b97586"
+      },
+      {
+        "path": "postupashki_platform/docs/README_DATA.md",
+        "sha256": "26d33ff4f4c3d58a4b06258b42c7a50a06c00c4902262decf10d7f1c56e991cd"
+      },
+      {
+        "path": "postupashki_platform/docs/SOURCES.json",
+        "sha256": "2197a50018ecebb0cd812a916555f340172c361ed0ab92168be48e9024a57238"
+      },
+      {
+        "path": "postupashki_platform/docs/bot_contract.md",
+        "sha256": "666b3ee83e2a1c8218b1e2f50645dbd2507e9f6be038ff1eb54f90296febe3bc"
+      },
+      {
+        "path": "postupashki_platform/docs/dashboard_requirements_original.md",
+        "sha256": "da27b457fd3ee8aec3a35a649e048127762dfe87130f94924ec1be3441b69a51"
+      },
+      {
+        "path": "postupashki_platform/docs/feature_dictionary.json",
+        "sha256": "0af8cd190355fe67ca4ad9d7e96a8ed1cc816680d9535710d3fbd56dd49bfdcf"
+      },
+      {
+        "path": "postupashki_platform/docs/features.md",
+        "sha256": "742242a60a9a115a5bf523c962428edf3e521677403d4671e8a88d4c2ceaac9a"
+      },
+      {
+        "path": "postupashki_platform/docs/marketing.md",
+        "sha256": "6519ba6e131cab3bb4811fed672110c3065a35fb2898e1eeb88db81e82506811"
+      },
+      {
+        "path": "postupashki_platform/docs/schema_reference.md",
+        "sha256": "558da3710f11fa9c5b3607c55fb922cd9a3f58fc686f1064f27c0878485e61b6"
+      },
+      {
+        "path": "postupashki_platform/examples/catalog.template.json",
+        "sha256": "9149b50c74f207931505e0696d3ea78a89a5b7ceb019670dc3498ae785d7c695"
+      },
+      {
+        "path": "postupashki_platform/examples/payment.template.json",
+        "sha256": "115012a87a1a11ed080df2b15d0cebd7cafa4138c04e0be01c1c8647302cefbf"
+      },
+      {
+        "path": "postupashki_platform/extension.sql",
+        "sha256": "cd4a1ffe0d827079c355f6358b8d119a6f9436e98e8cfaf2d0384ab7f7440a97"
+      },
+      {
+        "path": "postupashki_platform/forecast.py",
+        "sha256": "507e821f8cd39295fb21993c4984a2e49e2f761bd44ccafc43bd488612b5e465"
+      },
+      {
+        "path": "postupashki_platform/ingest_template.json",
+        "sha256": "7f11b0f6dafbd18207641c9aaa693370768817431c31a04ce7511b8d767ef24f"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/__init__.py",
+        "sha256": "a0eb7b0c4f6391eec0abcf065f381dab2b0a2d7fed9ed00cc4f1ef7b9311431f"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/__main__.py",
+        "sha256": "4841cc9fd804ec5a24fd6485f1e80c16edd70155ed4e59246efed1ccdaccae87"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/catalog.py",
+        "sha256": "f6862f66a6489af99d88a319f9cc1b43a9da46a147384a761d00e161663087d9"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/db.py",
+        "sha256": "57542fedd373cf2d23791d6d70a00f8cc2acd590426bf94cca8cd105731d5dad"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/features.py",
+        "sha256": "02a6649d2224f21c3b487f68e76d3c3dce7d7a5c93abb2c774e7ba4f4b0b66a3"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/marketing.py",
+        "sha256": "fffd42277c82883b8edcb131aa81845b53fdba454dda43f24fc2f9491a369b81"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/marketing_schema.sql",
+        "sha256": "eb7bcef47d19ce837bc19a14a5e0395557b277bbe1377e9d770d2a2a18f5f9a5"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/marketing_validation.py",
+        "sha256": "e1a6f7644ac994d973191dc92b5bcd25310d12e0c07d2daa2b1b73bf0f274161"
+      },
+      {
+        "path": "postupashki_platform/postupashki_data/schema.sql",
+        "sha256": "35313c281198e369bfe043fa9fd97afa8b9dd902d24c44065659563dc1f350db"
+      },
+      {
+        "path": "postupashki_platform/run_dashboard.bat",
+        "sha256": "b4ce4826320252301f07a19f61a753eb9e92510473afcfa76fe888903133c426"
+      },
+      {
+        "path": "postupashki_platform/run_demo.bat",
+        "sha256": "4af3a21e3c6727872691e36aea42a013608d5c10812d0e354929577fd3effa9c"
+      },
+      {
+        "path": "postupashki_platform/runner.py",
+        "sha256": "610ef4e20ea3ffe0b73145fc69717307dc452386f143a7e261f3527cc1fe444c"
+      },
+      {
+        "path": "postupashki_platform/store.py",
+        "sha256": "6d080f5a50f8a2b6bbfefc13284a54e2ccf652a5ab256039c7e171ebc05b2881"
+      },
+      {
+        "path": "postupashki_platform/telegram_api.py",
+        "sha256": "4c411a44c9e3e4091687058f1e6bab9dd204c6973b442060caf9b5b390980553"
+      },
+      {
+        "path": "postupashki_platform/tests/check_http.py",
+        "sha256": "d08e351c6be52c91b337f090d87c00787ad00fea97219f1098760d86532c1c96"
+      },
+      {
+        "path": "postupashki_platform/tests/check_ui.cjs",
+        "sha256": "43b2d3e6889881801bcd58b3609ae70d0b1cbf84a03e01b59af495255ec5760a"
+      },
+      {
+        "path": "postupashki_platform/tests/test_data.py",
+        "sha256": "c8e93dca7527fe61a3645bd66a010a05fd48a7a8dd0474fb1920b07022b4aa80"
+      },
+      {
+        "path": "postupashki_platform/tests/test_marketing.py",
+        "sha256": "614c1dc006dc6369f1af3b0fa38b8d1fe266bde5041a40a00d2f11aa146a8c9b"
+      },
+      {
+        "path": "postupashki_platform/tests/test_platform.py",
+        "sha256": "0f582b77e74c3e09c1bbfb6d1b15eac6eac2bf87f31751d3f15ddb37df87c19c"
+      },
+      {
+        "path": "postupashki_platform/web/telegram-link.js",
+        "sha256": "9469abb51ec13821cc755148e5748a3d97723f2075672d5a22e141e957dd369e"
+      }
+    ]
+  },
+  {
+    "archive": "postupashki_telegram_bot.zip",
+    "sha256": "9a73f6f2e3a33f89218e1e3915006274a0a0c41d6593b4f7881e692015dc2390",
+    "entries": [
+      {
+        "path": "postupashki_bot/.env.example",
+        "sha256": "1d284023975ea0a9ee719b4a0d34ea0c96cf6db9895889b4b30502d29b430a8a"
+      },
+      {
+        "path": "postupashki_bot/.gitignore",
+        "sha256": "e11adc04e275fc0b403aeee4e96faf97d12222dfc26617db8c066a78ce48b177"
+      },
+      {
+        "path": "postupashki_bot/01_definitions_and_mvp.md",
+        "sha256": "35b7c5c2ef2bfea5d554950cc23c9be4b91445878d01f3a870697d2c1755b7cf"
+      },
+      {
+        "path": "postupashki_bot/CHECKS.md",
+        "sha256": "0a5b88f52cba2e5249652a750682167d6196b379573fc25b19601fb93d958b84"
+      },
+      {
+        "path": "postupashki_bot/README.md",
+        "sha256": "4d05f13cbc8db7b9d339b8ef7dd923570fa4b8f65b986d6e12010900e15db33d"
+      },
+      {
+        "path": "postupashki_bot/README_MVP.md",
+        "sha256": "85c086275ed8d5b51ff0195d9f478d6aeb5174b78d5b8ba18a60da516c38dbd9"
+      },
+      {
+        "path": "postupashki_bot/SCHEMA.md",
+        "sha256": "11229ed847d050a149131a4ba36cd2b0e5e52d671cb1a814c75c36b703e7de9a"
+      },
+      {
+        "path": "postupashki_bot/SCHEMA_MVP_V1.md",
+        "sha256": "fac359d7d84c510e4d734e189d9f2f2a9c87b99b00c9d27153f826486277e1a3"
+      },
+      {
+        "path": "postupashki_bot/bot.py",
+        "sha256": "47861deed50a1670b6b5002880c6e44ad40448665b2b2b9588fab04bfd1539ac"
+      },
+      {
+        "path": "postupashki_bot/collector.py",
+        "sha256": "6f16e9393223a5c1daa952af089272d2edecd4f7550bd2b8f95b46da4435cfb7"
+      },
+      {
+        "path": "postupashki_bot/config.py",
+        "sha256": "6f6377166d7d6115d736280b283f6ab26b533fb96bd18d01176da25502456839"
+      },
+      {
+        "path": "postupashki_bot/data/add_sale.example.json",
+        "sha256": "6065f5e589eafc41edcea58384bd07ca6645b77200f1b86eec61cd7543c865f4"
+      },
+      {
+        "path": "postupashki_bot/data/demo.json",
+        "sha256": "7bf291bc4438fc09b455c44a93319ffc8c0e8a672e87da0634766fb6147838b1"
+      },
+      {
+        "path": "postupashki_bot/data/payment.template.json",
+        "sha256": "e92456943219d5b1786af0ae7a5d0957e13a9ed159c1b6e75822a9881389d3fd"
+      },
+      {
+        "path": "postupashki_bot/data/sales_source.csv",
+        "sha256": "84e10e47a6c37acfff49414e334fcef2fb1fab3642c6e1044d23b31079fcceb6"
+      },
+      {
+        "path": "postupashki_bot/demo_bot.py",
+        "sha256": "e4a035a9e8580a903ba877a537ab4338f65ea14d3565cb88f7cff2fcef2ca2f1"
+      },
+      {
+        "path": "postupashki_bot/examples/results/after_new_sale.csv",
+        "sha256": "bb26c18556a8dc2b30355d2a3ae614ec2bc9beddc3a921c98dc434d76c354aea"
+      },
+      {
+        "path": "postupashki_bot/examples/results/after_new_sale.json",
+        "sha256": "f42929c6347cc5ea3c421b3be16d3780c59657e37527341c30091dc5b09da094"
+      },
+      {
+        "path": "postupashki_bot/examples/results/first_touch.csv",
+        "sha256": "797982376653829e2fd32e6bf06464c7d5e476e8535ebf38df7888e58133d35b"
+      },
+      {
+        "path": "postupashki_bot/examples/results/first_touch.json",
+        "sha256": "cdfc17f20ca6f6439455a4850ad3783ce41f4f10528b33d6b6f4d9b9f559b1da"
+      },
+      {
+        "path": "postupashki_bot/examples/results/last_touch.csv",
+        "sha256": "27f91bbdfeed90a7bb02bfa0034b765b48ef97973497d09fd278374d3a74a6bf"
+      },
+      {
+        "path": "postupashki_bot/examples/results/last_touch.json",
+        "sha256": "29baab4d1498f762a294091cdcb2557fa78b5a65b0d0746ded1a718bca1f184a"
+      },
+      {
+        "path": "postupashki_bot/examples/results/linear.csv",
+        "sha256": "4fce3c771ed3ccd3a686394acd3b1f79a60ba01f9f48688fe54c9199a38af7fc"
+      },
+      {
+        "path": "postupashki_bot/examples/results/linear.json",
+        "sha256": "10e5fb76dabf9b314d3ef084dc7c1d00159853d713afa1af35e8f70b4a1e5229"
+      },
+      {
+        "path": "postupashki_bot/examples/results/real_sales.csv",
+        "sha256": "eb03eb1e0dbde9b985a5eb3296e353a52abda105974059fedf2cae8a3bc269bc"
+      },
+      {
+        "path": "postupashki_bot/examples/results/real_sales.json",
+        "sha256": "ed420ec5e9417bb2843046549c74b6e90a51dda3e109be13e1c96bc98e38db61"
+      },
+      {
+        "path": "postupashki_bot/importer.py",
+        "sha256": "21a995102012b8d879cafc4e58b2da566b75f2a795da90a77ae69fb07639a5f7"
+      },
+      {
+        "path": "postupashki_bot/inbox/README.md",
+        "sha256": "27a06f067b302231e24b6a855a6d1674df8baa9806e1fc0797885d47e358ea87"
+      },
+      {
+        "path": "postupashki_bot/migrations.py",
+        "sha256": "6e840d5cf506fd514d9390dbba159fa4cc649543013f48ff08bd5dbada7886e5"
+      },
+      {
+        "path": "postupashki_bot/mvp.py",
+        "sha256": "0e226f23fc24f92ebd7d953ae4531a881de27272bf9b96d5e21fb38fad745d45"
+      },
+      {
+        "path": "postupashki_bot/reporting.py",
+        "sha256": "8d0486c1909d5eb6af3ccb2b0077b69bdb97b54f9c2327c5e15e55a16d1a322c"
+      },
+      {
+        "path": "postupashki_bot/runner.py",
+        "sha256": "753b275d80c15f27c2b2453204851aacf9d92278e9ed553c39660b39d2133608"
+      },
+      {
+        "path": "postupashki_bot/schema.sql",
+        "sha256": "59c1437b5ec76bfcd90a230f6d73ea27fd69539dc3e110c3879b4683162e44d0"
+      },
+      {
+        "path": "postupashki_bot/telegram_api.py",
+        "sha256": "4c411a44c9e3e4091687058f1e6bab9dd204c6973b442060caf9b5b390980553"
+      },
+      {
+        "path": "postupashki_bot/tests/fixtures/schema_v1.sql",
+        "sha256": "43a30cb5a545e1b5b3080a2800017f79145bf8b236fcd70902e7a33dfa40cfbc"
+      },
+      {
+        "path": "postupashki_bot/tests/test_collector.py",
+        "sha256": "a0ef11190a76d003689700be38cf622409a6cb5285088755b326b7b0f135ab6c"
+      },
+      {
+        "path": "postupashki_bot/tests/test_mvp.py",
+        "sha256": "57387a32ba7d53f6fad24302e85b4705aaaca76849973d8b7da549316f7e1daf"
+      },
+      {
+        "path": "postupashki_bot/web/telegram-link.js",
+        "sha256": "9469abb51ec13821cc755148e5748a3d97723f2075672d5a22e141e957dd369e"
+      }
+    ]
+  },
+  {
+    "archive": "postupashki_ml_v1.zip",
+    "sha256": "a231fda52b897594368e2dbf0b8b6722703959f89d6a5c981da38c432dde3eb2",
+    "entries": [
+      {
+        "path": "postupashki_ml/README.md",
+        "sha256": "91be0e71abb224e9348487f2422727464dbb2567e46158e383d366b7631f133b"
+      },
+      {
+        "path": "postupashki_ml/dashboard_ml.py",
+        "sha256": "e0d83421a14cbca4ee70727692d2cb19984b3ac9d89ab216705d6b0b9c67caa9"
+      },
+      {
+        "path": "postupashki_ml/demo.sqlite3",
+        "sha256": "033b19c58f25a72563cf177298ee138649f06f72072184603031e881f2f974d0"
+      },
+      {
+        "path": "postupashki_ml/docs/integration.md",
+        "sha256": "c131698593817e090a9b5ea78be660b566f2e3cf69907cf8eb8865abd7ca64fd"
+      },
+      {
+        "path": "postupashki_ml/docs/methodology.md",
+        "sha256": "5008d87e26f7df5e24e962c6a4b03538bd15d1a877c1efb0c190b12be5b3a618"
+      },
+      {
+        "path": "postupashki_ml/docs/validation.md",
+        "sha256": "5c2ee71fed83bf7263841251e23cfaa96efce0d8fe7a4ced0ed58402554ad5bb"
+      },
+      {
+        "path": "postupashki_ml/examples/economics.json",
+        "sha256": "ccb7b99366c0f6c555863575e2085882586c42f5e0d442931d5f4d808001051f"
+      },
+      {
+        "path": "postupashki_ml/examples/promotion.json",
+        "sha256": "30dad2bf65e086488a8b50c003a61aac0de19501b443c2d48fc525f8fc6dfad4"
+      },
+      {
+        "path": "postupashki_ml/examples/scenarios.json",
+        "sha256": "8ddde34f09876edaba7253adb4f640c0286c783552294be1d9a8a31e5b87d254"
+      },
+      {
+        "path": "postupashki_ml/models/new_buyers.joblib",
+        "sha256": "3142f15282c887362723fab5f10c942d4255b2abbfa08e0bac24ef8a0539b86a"
+      },
+      {
+        "path": "postupashki_ml/models/new_buyers_report.json",
+        "sha256": "46dfc170e586ae082b05649a0c2d80f3446354dabd67843a750156c0292aa7d6"
+      },
+      {
+        "path": "postupashki_ml/models/new_buyers_test_predictions.csv",
+        "sha256": "4f1f28b12f4617a17e19fc292d2affa13b7070fc3e60377e430643cbefbb743e"
+      },
+      {
+        "path": "postupashki_ml/models/new_users.joblib",
+        "sha256": "a7eceb57af7ea2e5b20e793365d46e5f906b4da6e02ae8de300a9d1b466f585e"
+      },
+      {
+        "path": "postupashki_ml/models/new_users_report.json",
+        "sha256": "d63a5460f92166a42f861bdb4ed8640d30c1042a04d6b836a80679743ce2e5f9"
+      },
+      {
+        "path": "postupashki_ml/models/new_users_test_predictions.csv",
+        "sha256": "ab9d8f2db44aa249b01df0b97640eb1fac68efce8f1ce68c3c61ce9760f6d005"
+      },
+      {
+        "path": "postupashki_ml/models/purchase.joblib",
+        "sha256": "375b152d0c663fe485489f2e9edbb1b4895866954eb72515da2dd0c1ca6de595"
+      },
+      {
+        "path": "postupashki_ml/models/purchase_calibration.csv",
+        "sha256": "77b9a8a5a4254bba1c81b2410350e764f9b00001cb60db236678e5295e00b48b"
+      },
+      {
+        "path": "postupashki_ml/models/purchase_report.json",
+        "sha256": "c4283cdd0af68719708247ce1e420c9dac5be31105e20f17984522d44294da7b"
+      },
+      {
+        "path": "postupashki_ml/models/purchase_test_predictions.csv",
+        "sha256": "961417e6e7d562441e0a43f00cba01bc61d05f23b4fb96242d03df59f8931163"
+      },
+      {
+        "path": "postupashki_ml/models/training_summary.json",
+        "sha256": "9f8ddd4268e47dc1884c9a55a075460e4f8e0bff08b931cb9a3e6b1b19759ab4"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/__init__.py",
+        "sha256": "a0eb7b0c4f6391eec0abcf065f381dab2b0a2d7fed9ed00cc4f1ef7b9311431f"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/__main__.py",
+        "sha256": "4841cc9fd804ec5a24fd6485f1e80c16edd70155ed4e59246efed1ccdaccae87"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/catalog.py",
+        "sha256": "f6862f66a6489af99d88a319f9cc1b43a9da46a147384a761d00e161663087d9"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/db.py",
+        "sha256": "51c2b6dddfdbd2663a4bf6f510067072c250677255f76693a8e6b56037d72e20"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/features.py",
+        "sha256": "19f740e755f94d85dae1e72e0c89beb655adf4d9255ac724379ad54b829d3719"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/marketing.py",
+        "sha256": "fffd42277c82883b8edcb131aa81845b53fdba454dda43f24fc2f9491a369b81"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/marketing_schema.sql",
+        "sha256": "eb7bcef47d19ce837bc19a14a5e0395557b277bbe1377e9d770d2a2a18f5f9a5"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/marketing_validation.py",
+        "sha256": "e1a6f7644ac994d973191dc92b5bcd25310d12e0c07d2daa2b1b73bf0f274161"
+      },
+      {
+        "path": "postupashki_ml/postupashki_data/schema.sql",
+        "sha256": "35313c281198e369bfe043fa9fd97afa8b9dd902d24c44065659563dc1f350db"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/__init__.py",
+        "sha256": "1eba76480d6bad3f65eb8c2769d45db7ef140167de05676f981206f4278904be"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/__main__.py",
+        "sha256": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/channels.py",
+        "sha256": "8c11d889c11dcdbbe009fad5538c2455f534bc6fa2bd16b9cb58644ae5692965"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/cli.py",
+        "sha256": "cdce4f1c63b9ca7e627aa8c1303faf84b9d21318bdfe4bb10e7b44cc9aa39478"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/contracts.py",
+        "sha256": "bd6de81648ae9a903eb42a74fa3879af9dfb1b95dd666ab63a587416c42b1487"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/customers.py",
+        "sha256": "51190af08333fb00436eff1e335d8eadb78f6bb653f607b81a028356270ae5c8"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/decay.py",
+        "sha256": "0c793a767a4c0a4089d5e4120b90255e7b5abff602a6b04e488440af730577e3"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/schema.sql",
+        "sha256": "9c52602de893a176480360fa8e442676b87f6eab6b7ecaf3fae62b7339ffc510"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/search.py",
+        "sha256": "c5f82959061979b4238ffa2d7311135836fe1b0ba2a58c7a0580d1eef55a2432"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/service.py",
+        "sha256": "1b78fb86ab9f1b7cf77e9da21145e1c26f8815cb06e43edf71a1131db31c16e2"
+      },
+      {
+        "path": "postupashki_ml/postupashki_ml/synthetic.py",
+        "sha256": "13f9d92d0974e1ae997763fe34bb81bfa8d7c923ffba9242ed38ab0c0640f240"
+      },
+      {
+        "path": "postupashki_ml/pyproject.toml",
+        "sha256": "02e254e1f3f6450e322a2320511dbec6870397110206bbf11cb0027db4f93c85"
+      },
+      {
+        "path": "postupashki_ml/requirements-tested.txt",
+        "sha256": "9ead1b87ddc0ed41cc6f180a1414b5171ec82ec4e5f1599fed59f88b93a9cd3f"
+      },
+      {
+        "path": "postupashki_ml/results/batch_benchmark.json",
+        "sha256": "3580b1369fdf6018dda0bcd288df79e24793d559e78724b23608a02768ff6696"
+      },
+      {
+        "path": "postupashki_ml/results/customers.csv",
+        "sha256": "82323dc88f81fc1306a01f6f557e215368185ce6238c7b96b3e04805cd17630c"
+      },
+      {
+        "path": "postupashki_ml/results/customers.json",
+        "sha256": "c23e8a39d30516da25cdbbf09eb48b24cacd71bc0cd12c8698f90129436605f8"
+      },
+      {
+        "path": "postupashki_ml/results/portfolio.json",
+        "sha256": "60d65a7e7e3ce7457f1d027cdc41838dde470959627b3a3a576c579b9c9394ba"
+      },
+      {
+        "path": "postupashki_ml/results/scenarios.json",
+        "sha256": "e22648de7f10387b4dfa5052569b62055f3140a3fa331238ce6e842d4f72a6b7"
+      },
+      {
+        "path": "postupashki_ml/test_results.txt",
+        "sha256": "69623c32c757b812e806175796e7403da0fdeac907fc89f077bd635f02ba6f23"
+      },
+      {
+        "path": "postupashki_ml/tests/test_invariants.py",
+        "sha256": "e76560cab5e35d8056c88391cf9d01265a71d9f98837113806eecd32bec0abd9"
+      },
+      {
+        "path": "postupashki_ml/tests/test_service.py",
+        "sha256": "beaa2b90be1f9ea37653c59e84e919871a34b010a38f318fa2e0582cf961bf6f"
+      }
+    ]
+  }
+]

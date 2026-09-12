@@ -1,0 +1,7 @@
+﻿campaign_id,start,end,original_end,evidence_posts,date_basis,pricing_basis,known_at,note
+start_sale_august,2026-08-08,2026-08-10,2026-08-09,"[1835, 1836, 1837, 1838, 1840]",dated_reminders_and_extension; original_terms_from_prior_web_review,6490_single_START;9990_distinct_START_pair_including_Algorithms_START,2026-08-10T16:26:59+03:00,"Продление известно с поста 1838, нельзя использовать его как заранее известный признак."
+pro_launch_aug22,2026-08-22,,,"[1859, 1860, 1863]",announcement_timestamp; actual_course_start_not_stated,not_stated,2026-08-22T13:19:48+03:00,"Дата анонса, не доказанный первый день продаж или занятий."
+tbank_selection,,2026-09-06,,"[1870, 1872, 1875, 1876, 1877, 1878, 1880, 1881, 1882, 1885]",deadline_as_stated_in_channel_posts,not_stated,2026-08-28T19:05:59+03:00,Внешний дедлайн используется для предложения своих курсов; расходы и касания неизвестны.
+yandex_selection,,,,"[1870, 1872, 1882, 1895]",dated_posts; exact_selection_window_unknown,not_stated,2026-08-28T19:05:59+03:00,Разборы контеста на курсах; не установлен полный календарь набора.
+ai_webinar,,,,[1874],recording_promotion_date_only,promo_code_amount_and_validity_unknown,2026-08-30T16:26:37+03:00,Дата публикации записи не равна дате вебинара.
+free_week,2026-09-07,2026-09-13,,"[1887, 1892, 1893, 1897, 1898, 1900]",explicit_window_and_dated_reminders,free_participation; prize_not_ad_spend,2026-09-07T13:47:40+03:00,Продажи заканчиваются 10 сентября; результат всей недели ещё не наблюдается.

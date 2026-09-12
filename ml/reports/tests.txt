@@ -1,0 +1,28 @@
+test_same_db_read_only_aggregate_and_explicit_unknown_economics (test_bridge.BridgeTests.test_same_db_read_only_aggregate_and_explicit_unknown_economics) ... ok
+test_additive_migration_inherits_synthetic_marker (test_bridge.ProvenanceTests.test_additive_migration_inherits_synthetic_marker) ... ok
+test_conflicting_sources_fail (test_bridge.ProvenanceTests.test_conflicting_sources_fail) ... ok
+test_unknown_source_not_assumed_real (test_bridge.ProvenanceTests.test_unknown_source_not_assumed_real) ... ok
+test_acquisition_deduplicated_across_channels (test_invariants.Fixture.test_acquisition_deduplicated_across_channels) ... ok
+test_current_price_expires_but_warmth_persists (test_invariants.Fixture.test_current_price_expires_but_warmth_persists) ... ok
+test_horizon_coverage_and_gaps (test_invariants.Fixture.test_horizon_coverage_and_gaps) ... ok
+test_known_old_user_not_new_acquisition (test_invariants.Fixture.test_known_old_user_not_new_acquisition) ... ok
+test_late_backfill_and_future_events_do_not_change_features (test_invariants.Fixture.test_late_backfill_and_future_events_do_not_change_features) ... ok
+test_late_payment_not_in_past (test_invariants.Fixture.test_late_payment_not_in_past) ... ok
+test_missing_collection_is_not_zero (test_invariants.Fixture.test_missing_collection_is_not_zero) ... ok
+test_partial_settlement_and_refund (test_invariants.Fixture.test_partial_settlement_and_refund) ... ok
+test_simultaneous_payment_and_refund_do_not_create_purchase (test_invariants.Fixture.test_simultaneous_payment_and_refund_do_not_create_purchase) ... ok
+test_zero_plan_identity_and_future_contacts (test_invariants.Fixture.test_zero_plan_identity_and_future_contacts) ... ok
+test_decay_semantics (test_invariants.MathAndContracts.test_decay_semantics) ... ok
+test_invalid_plan_rejected (test_invariants.MathAndContracts.test_invalid_plan_rejected) ... ok
+test_portfolio_bounds_and_unknown_overlap (test_invariants.MathAndContracts.test_portfolio_bounds_and_unknown_overlap) ... ok
+test_temporal_embargo (test_invariants.MathAndContracts.test_temporal_embargo) ... ok
+test_batch_invariance_and_identity (test_service.Integration.test_batch_invariance_and_identity) ... ok
+test_demo_refuses_existing_database (test_service.Integration.test_demo_refuses_existing_database) ... ok
+test_price_cap_and_economic_monotonicity (test_service.Integration.test_price_cap_and_economic_monotonicity) ... ok
+test_synthetic_cannot_silently_score_real_database (test_service.Integration.test_synthetic_cannot_silently_score_real_database) ... ok
+test_unknown_cost_not_zero (test_service.Integration.test_unknown_cost_not_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 5.108s
+
+OK
